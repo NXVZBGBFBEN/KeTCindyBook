@@ -1,0 +1,50 @@
+\documentclass[10pt,dvipdfmx,a4paper,titlepage,oneside]{jsbook}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{here}
+\usepackage{framed}
+\usepackage{tcolorbox}
+\usepackage{quotchap}
+\usepackage{pdfpages}
+\usepackage[hidelinks]{hyperref}
+\usepackage{pxjahyper}
+\usepackage{titlesec}
+\usepackage{picture}
+\usepackage{tikz}
+\usepackage{emath,emathEy,emathMw}
+\usepackage{ketpic,ketlayer}
+
+\tcbuselibrary{breakable}
+\definecolor{shadecolor}{gray}{0.80}
+
+% section
+\titleformat{\section}[block]{}{}{0pt}
+{
+  \definecolor{teal}{gray}{0.30}
+  \begin{picture}(0,0)
+    \put(-10,-5){
+      \begin{tikzpicture}
+        \fill[teal] (0pt,0pt) rectangle (5pt,19pt);
+      \end{tikzpicture}
+    }
+    \put(-10,-5){
+      \color{teal}
+      \line(1,0){\hsize}
+    }
+  \end{picture}
+  \hspace{0pt}
+  \sf \Large \thesection
+  \hspace{0pt}
+}
+
+% 図表見出し
+\renewcommand{\tablename}{\textcolor{gray}{▼} 表}
+\renewcommand{\figurename}{\textcolor{gray}{▲} 図}
+
+\begin{document}
+
+\input{CoverPage.tex}
+
+\input{Install.tex}
+
+\end{document}
