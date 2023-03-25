@@ -20,21 +20,21 @@
 % section
 \titleformat{\section}[block]{}{}{0pt}
 {
-  \definecolor{teal}{gray}{0.30}
-  \begin{picture}(0,0)
-    \put(-10,-5){
-      \begin{tikzpicture}
-        \fill[teal] (0pt,0pt) rectangle (5pt,19pt);
-      \end{tikzpicture}
-    }
-    \put(-10,-5){
-      \color{teal}
-      \line(1,0){\hsize}
-    }
-  \end{picture}
-  \hspace{0pt}
-  \textsf \Large \thesection
-  \hspace{0pt}
+    \definecolor{teal}{gray}{0.30}
+    \begin{picture}(0,0)
+        \put(-10,-5){
+            \begin{tikzpicture}
+                \fill[teal] (0pt,0pt) rectangle (5pt,19pt);
+            \end{tikzpicture}
+        }
+        \put(-10,-5){
+            \color{teal}
+            \line(1,0){\hsize}
+        }
+    \end{picture}
+    \hspace{0pt}
+    \textsf \Large \thesection
+    \hspace{0pt}
 }
 
 % 図表見出し
@@ -43,8 +43,8 @@
 
 \begin{document}
 
-\input{CoverPage}
+    \input{CoverPage}
 
-\input{Install}
+    \input{Install}
 
 \end{document}
