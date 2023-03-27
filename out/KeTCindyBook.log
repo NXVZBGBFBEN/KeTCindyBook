@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.18)  26 MAR 2023 04:15
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.18)  28 MAR 2023 10:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -900,94 +900,98 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 ]
 第1章
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 4.
+(Font)              scaled to size 19.9311pt on input line 8.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 4.
-LaTeX Font Info:    Trying to load font information for OT1+pbk on input line 4
+(Font)              scaled to size 19.9311pt on input line 8.
+LaTeX Font Info:    Trying to load font information for OT1+pbk on input line 8
 .
 (e:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1pbk.fd
 File: ot1pbk.fd 2001/06/04 font definitions for OT1/pbk.
 )
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 4.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 96.09985pt on input line 4.
+(Font)              scaled to size 96.09985pt on input line 8.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 96.09985pt on input line 4.
+(Font)              scaled to size 96.09985pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/pbk/b/n' in size <100> not available
-(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 4.
+(Font)              Font shape `OT1/pbk/db/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
+(Font)              scaled to size 9.60999pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 7.
+(Font)              scaled to size 9.60999pt on input line 11.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 7.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 7.
+(Font)              scaled to size 13.83836pt on input line 11.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 19.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 19.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 19.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 19.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 21.
+(Font)              scaled to size 6.72699pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+(Font)              scaled to size 4.805pt on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
 (e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (e:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 21.
+(Font)              scaled to size 6.72699pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 21.
+(Font)              scaled to size 5.76599pt on input line 26.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 21.
+(Font)              scaled to size 5.76599pt on input line 26.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 21.
+(Font)              scaled to size 7.68799pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 21.
+(Font)              scaled to size 7.68799pt on input line 26.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 37.
+(Font)              scaled to size 9.60999pt on input line 42.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 37.
+(Font)              scaled to size 9.60999pt on input line 42.
  [1
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.99997pt
-(hyperref)                removed on input line 44.
+(hyperref)                removed on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lower' on input line 44.
+(hyperref)                removing `\lower' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 44.
+(hyperref)                removing `\hbox' on input line 46.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.25pt
-(hyperref)                removed on input line 44.
+(hyperref)                removed on input line 46.
 
-) [2] (out/KeTCindyBook.aux)
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 63.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 8.64899pt on input line 63.
+[2] [3]) [4] (out/KeTCindyBook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
@@ -996,12 +1000,12 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 (rerunfilecheck)             Checksum: 22BCFA31C2AFC1E660CD7C8C4F67AA38;256.
  ) 
 Here is how much of TeX's memory you used:
- 26833 strings out of 476707
- 495280 string characters out of 5808795
- 1850203 words of memory out of 5000000
- 46819 multiletter control sequences out of 15000+600000
- 559622 words of font info for 113 fonts, out of 8000000 for 9000
+ 26844 strings out of 476707
+ 495423 string characters out of 5808795
+ 1856203 words of memory out of 5000000
+ 46828 multiletter control sequences out of 15000+600000
+ 560370 words of font info for 117 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 83i,9n,89p,446b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,446b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (3 pages, 8876 bytes).
+Output written on out/KeTCindyBook.dvi (5 pages, 21832 bytes).
