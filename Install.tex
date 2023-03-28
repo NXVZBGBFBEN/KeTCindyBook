@@ -23,23 +23,28 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
 \subsection{{\TeX}Liveの場合}
 
 \begin{enumerate}
-    \item Installing TeX Live over the Internet\footnote{\url{https://www.tug.org/texlive/acquire-netinstall.html}}から，
-          install-tl-windows.exeまたはinstall-tl.zipをダウンロードする
-    \item exeファイルまたは解凍して得られたbatファイルを管理者として実行\footnote{右クリックメニューから[管理者として実行]を選択する}し，
-          インストーラを起動する
+    \item \url{https://www.tug.org}にアクセスする
+    \item 右ペインにあるSoftwareからTeX Liveを選択する
+    \item install on Windowsを選択する
+    \item \verb|install-tl-windows.exe|を選択する
+    \item exeファイルを管理者として実行\footnote{右クリックメニューから[管理者として実行]を選択}する
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
 
-インストール先はCドライブ直下を指定すると{\ketcindy}のインストール時に楽である．
+インストール先にCドライブ直下を指定すると{\ketcindy}のインストール時に楽である．
 インターネット上から膨大な量のファイルをダウンロードするため，かなりの時間を要するはずである．
 
 %%%%%%%%%%%%%%%%%%%% §1.1.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{KeT{\TeX}の場合}
 
 \begin{enumerate}
-    \item GitHubのダウンロードページ\footnote{\url{https://github.com/ketpic/kettex/releases/tag/v0.20230320}}から，
-          KeTTeX-windows-20230320.zipをダウンロードし，Cドライブ直下に移動する
-    \item ダウンロードしたzipファイルを解凍し，中にあるkettexinst.cmdを管理者として実行し，インストールを完了させる
+    \item \url{https://github.com/ketpic/kettex}にアクセスする
+    \item 右ペインからReleasesを選択する
+    \item \verb|KeTTeX-windows-20230320.zip|を選択する
+    \item ダウンロードしたzipファイルをCドライブ直下に移動する
+    \item zipファイルを解凍しする
+    \item 中にある\verb|kettexinst.cmd|を管理者として実行する
+    \item インストーラに従いインストールを完了させる
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%% §1.2 %%%%%%%%%%%%%%%%%%%%%
@@ -76,8 +81,8 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
 \subsubsection{{\ketcindy}本体のインストール}
 \begin{enumerate}
     \item 表\ref{tab:download}のURLにアクセスする
-    \item 右ペインからReleasesを選択
-    \item Source code (zip)を選択
+    \item 右ペインからReleasesを選択する
+    \item Source code (zip)を選択する
     \item ダウンロードしたzipファイルをCドライブ直下に移動する
     \item zipファイルを解凍する
     \item 解凍されたフォルダ名から「\verb|-|」（ハイフン）を取り除く

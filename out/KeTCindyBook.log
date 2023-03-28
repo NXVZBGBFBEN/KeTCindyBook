@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.18)  28 MAR 2023 10:49
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.18)  28 MAR 2023 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -949,15 +949,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 26.
+(Font)              scaled to size 6.72699pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 26.
+(Font)              scaled to size 5.76599pt on input line 30.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 26.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 26.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 26.
+(Font)              scaled to size 5.76599pt on input line 30.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -972,25 +968,25 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.99997pt
-(hyperref)                removed on input line 46.
+(hyperref)                removed on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lower' on input line 46.
+(hyperref)                removing `\lower' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 46.
+(hyperref)                removing `\hbox' on input line 51.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.25pt
-(hyperref)                removed on input line 46.
+(hyperref)                removed on input line 51.
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
+(Font)              scaled to size 8.64899pt on input line 68.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 63.
+(Font)              scaled to size 8.64899pt on input line 68.
 [2] [3]) [4] (out/KeTCindyBook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1000,12 +996,12 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 (rerunfilecheck)             Checksum: 22BCFA31C2AFC1E660CD7C8C4F67AA38;256.
  ) 
 Here is how much of TeX's memory you used:
- 26844 strings out of 476707
- 495423 string characters out of 5808795
+ 26840 strings out of 476707
+ 495380 string characters out of 5808795
  1856203 words of memory out of 5000000
- 46828 multiletter control sequences out of 15000+600000
- 560370 words of font info for 117 fonts, out of 8000000 for 9000
+ 46825 multiletter control sequences out of 15000+600000
+ 559921 words of font info for 114 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (5 pages, 21832 bytes).
+Output written on out/KeTCindyBook.dvi (5 pages, 21984 bytes).
