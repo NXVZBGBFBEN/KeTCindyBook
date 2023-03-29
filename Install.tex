@@ -73,8 +73,8 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
         \textbf{Cinderella}  & \url{https://cinderella.de/tiki-index.php}\\
         Maxima      & \url{https://maxima.sourceforge.io/}\\
         MinGW-w64   & \url{https://www.mingw-w64.org/}\\
-        SumatraPDF  & \url{https://www.sumatrapdfreader.org/free-pdf-reader}\\
-        emath       & \url{http://emath.s40.xrea.com/}
+        emath       & \url{http://emath.s40.xrea.com/}\\
+        SumatraPDF  & \url{https://www.sumatrapdfreader.org/free-pdf-reader}
     \end{tabular}
 \end{table}
 
@@ -127,6 +127,16 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
     \item 中にある\verb|bin|フォルダの絶対パスをシステム環境変数として登録する
 \end{enumerate}
 
+\subsubsection{emathのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 入口→丸ごとパック と進む
+    \item \verb|emathf051107c.zip|を選択する
+    \item ダウンロードしたzipファイルを解凍する
+    \item 中にある\verb|sty.zip|を解凍する
+    \item \verb|sty|フォルダを{\ketcindy}フォルダ内にある\verb|doc\foremathJ|に入れる
+\end{enumerate}
+
 \subsubsection{PDFビューアのインストール}
 ここではSumatraPDFをインストールする．Adobe Acrobat等のPDFビューアも使用可能だが，
 PDFファイルを開いている間にファイルがロックされない\footnote{PDFファイルを開いていても外部でファイルの編集ができる}ため，
@@ -137,16 +147,7 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item \verb|SumatraPDF-3.4.6-64-install.exe|を選択する
     \item ダウンロードしたexeファイルを実行する
     \item インストール先フォルダを\verb|C:\Program Files\SumatraPDF|に変更する
-\end{enumerate}
-
-\subsubsection{emathのインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item 入口→丸ごとパック と進む
-    \item \verb|emathf051107c.zip|を選択する
-    \item ダウンロードしたzipファイルを解凍する
-    \item 中にある\verb|sty.zip|を解凍する
-    \item \verb|sty|フォルダを{\ketcindy}フォルダ内にある\verb|doc\foremathJ|に入れる
+    \item インストーラに従いインストールを完了させる
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%% §1.2.2 %%%%%%%%%%%%%%%%%%%%

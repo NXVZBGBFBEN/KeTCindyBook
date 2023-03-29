@@ -1,12 +1,12 @@
 # Fdb version 4
-["dvipdf"] 1679969441 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1679969442 0
-  "out/KeTCindyBook.dvi" 1679969441 21984 045681ef652eae1064c6b71faba30fec "latex"
+["dvipdf"] 1680113554 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1680113555 0
+  "out/KeTCindyBook.dvi" 1680113553 22168 9162619881931135e546c3ce2250307e "latex"
   (generated)
   "out/KeTCindyBook.pdf"
   (rewritten before read)
-["latex"] 1679969438 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1679969442 0
+["latex"] 1680113551 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1680113555 0
   "CoverPage.tex" 1679762577 389 93d5043574a1747647885ef8c4274b06 ""
-  "Install.tex" 1679969435 8081 4c16dab367b91d09a5a15abf67d718eb ""
+  "Install.tex" 1680113547 8156 790d4855a148bc88dc258244ef27014e ""
   "KeTCindyBook.tex" 1679767715 1146 d69158c26d4fcdb2d664c164272f189a ""
   "e:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1664478373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "e:/texlive/2022/texmf-dist/fonts/tfm/adobe/bookman/pbkd7t.tfm" 1664473820 1828 e7f8907b15e46b672fb146aef572259e ""
@@ -192,8 +192,8 @@
   "e:/texlive/texmf-local/tex/platex/emath/emathK.sty" 1131276948 4990 6a5614fc78f8de11eb3f29d70675d83e ""
   "e:/texlive/texmf-local/tex/platex/emath/emathMw.sty" 1131276948 24898 83d70bee2acafb2e78ae28668490ef9d ""
   "e:/texlive/texmf-local/tex/platex/emath/jquote.sty" 1131276948 1898 4d0cded33ef7e87e3d0c400f64f05835 ""
-  "out/KeTCindyBook.aux" 1679969441 2651 cc25b54d49e1c597fefebe1765b552dc "latex"
-  "out/KeTCindyBook.out" 1679969441 256 22bcfa31c2afc1e660cd7c8c4f67aa38 "latex"
+  "out/KeTCindyBook.aux" 1680113553 2651 e00126a0a860f84022e4d1b68950782d "latex"
+  "out/KeTCindyBook.out" 1680113553 256 22bcfa31c2afc1e660cd7c8c4f67aa38 "latex"
   (generated)
   "out/KeTCindyBook.aux"
   "out/KeTCindyBook.dvi"
