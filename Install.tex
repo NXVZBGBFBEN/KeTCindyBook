@@ -154,3 +154,61 @@ PDFファイルを開いている間にファイルがロックされない\foot
 %%%%%%%%%%%%%%%%%%%% §1.2.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{Macintoshの場合}
 
+ここでは，Apple M2 MacBook Air (Ventura 13.1)における{\ketcindy}のインストール手順を説明する．
+
+%ここからMac向けに改修
+\subsubsection{{\ketcindy}本体のインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 右ペインからReleasesを選択する
+    \item Source code (tar.gz)を選択する
+    \item ダウンロードしたtar.gzファイルを展開する
+\end{enumerate}
+
+\subsubsection{Rのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item Download R for macOSを選択する
+    \item \verb|R-4.2.3-arm64.pkg|を選択する
+    \item ダウンロードしたpkgファイルを実行する
+    \item インストーラに従いインストールを完了させる
+\end{enumerate}
+
+\subsubsection{Cinderellaのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 右ペインから ダウンロード を選択する
+    \item disk imageを選択する
+    \item ダウンロードしたdmgファイル内にある\verb|Cinderella|を左ペインにある アプリケーション に入れる
+\end{enumerate}
+
+\newpage
+\subsubsection{Maximaのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 右ペインからDownloadsを選択する
+    \item Maxima-MacOS download section→5.43.0-MacOSXと進む
+    \item \verb|Maxima-5.43.0-VTK-macOS.dmg|を選択する
+    \item ダウンロードしたdmgファイル内にある\verb|Maxima|を アプリケーション に入れる
+    \item Finderから アプリケーション 内にあるMaximaを探し，controlキーを押しながらクリックする
+    \item 開く を選択し，セキュリティ警告を消す
+\end{enumerate}
+
+\subsubsection{gccのインストール}
+\begin{enumerate}
+    \item ターミナルから次のコマンドを実行する
+          \begin{lstlisting}
+  $ sudo xcode-select --install
+          \end{lstlisting}
+\end{enumerate}
+
+\subsubsection{emathのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 入口→丸ごとパック と進む
+    \item \verb|emathf051107c.zip|を選択する
+    \item ダウンロードしたzipファイルを解凍する
+    \item 中にある\verb|sty.zip|を解凍する
+    \item \verb|sty|フォルダを{\ketcindy}フォルダ
+    \cprotect\footnote{上の手順に従っている場合，\verb|ketcindyx.x.x|（\verb|x|はバージョン）}内にある\verb|doc\foremathJ|に入れる
+\end{enumerate}

@@ -14,9 +14,11 @@
 \usepackage{emath,emathEy,emathMw}
 \usepackage{ketpic,ketlayer}
 \usepackage{cprotect}
+\usepackage{listings,xcolor,inconsolata}
 
 \tcbuselibrary{breakable}
 \definecolor{shadecolor}{gray}{0.80}
+\definecolor{Green}{HTML}{009e73}
 
 % section
 \titleformat{\section}[block]{}{}{0pt}
@@ -38,16 +40,27 @@
     \hspace{0pt}
 }
 
+\lstset{
+  basicstyle=\ttfamily,
+  keywordstyle=\bfseries\color{Green},
+  showstringspaces=false,
+  frame={tb},
+  xrightmargin=0em,
+  xleftmargin=0em,
+  columns=fixed,
+  basewidth=0.5em,
+  lineskip=-0.5em
+}
 % 図表見出し
 \renewcommand{\tablename}{\textcolor{gray}{▼} 表}
 \renewcommand{\figurename}{\textcolor{gray}{▲} 図}
 
 \begin{document}
 
-    \input{CoverPage}
+    \input{coverpage}
 
-    \input{Install}
+    \input{install}
 
-    \input{InitialSettings}
+    \input{initialsettings}
 
 \end{document}

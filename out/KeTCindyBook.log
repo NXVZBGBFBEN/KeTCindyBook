@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  30 MAR 2023 13:17
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  30 MAR 2023 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,6 +811,51 @@ Package: suffix 2006/07/15 1.5a Variant command support
 \c@CPT@numB=\count348
 \CPT@commandatend@toks=\toks47
 )
+(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count349
+\lst@gtempboxa=\box102
+\lst@token=\toks48
+\lst@length=\count350
+\lst@currlwidth=\dimen318
+\lst@column=\count351
+\lst@pos=\count352
+\lst@lostspace=\dimen319
+\lst@width=\dimen320
+\lst@newlines=\count353
+\lst@lineno=\count354
+\lst@maxwidth=\dimen321
+
+(c:/texlive/2022/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count355
+\lst@skipnumbers=\count356
+\lst@framebox=\box103
+)
+(c:/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+
+(c:/texlive/2022/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count357
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count358
+)
 (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.1'
 (c:/texlive/2022/texmf-dist/tex/latex/pdfcol/pdfcol.sty
@@ -818,43 +863,43 @@ Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 Package pdfcol Info: Interface disabled because of missing PDF mode of pdfTeX.
 )
 Package pdfcol Info: pdfTeX's color stacks are not available.
-\tcb@testbox=\box102
-\tcb@totalupperbox=\box103
-\tcb@totallowerbox=\box104
+\tcb@testbox=\box104
+\tcb@totalupperbox=\box105
+\tcb@totallowerbox=\box106
 )
 (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2023-01-16 L3 backend support: dvipdfmx
-\g__graphics_track_int=\count349
-\l__pdf_internal_box=\box105
-\g__pdf_backend_object_int=\count350
-\g__pdf_backend_annotation_int=\count351
-\g__pdf_backend_link_int=\count352
+\g__graphics_track_int=\count359
+\l__pdf_internal_box=\box107
+\g__pdf_backend_object_int=\count360
+\g__pdf_backend_annotation_int=\count361
+\g__pdf_backend_link_int=\count362
 )
 (out/KeTCindyBook.aux)
 \openout1 = `KeTCindyBook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 
 (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -866,13 +911,18 @@ F (HO)
 (c:/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )))
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 58.
 
 (out/KeTCindyBook.out) (out/KeTCindyBook.out)
 \@outlinefile=\write5
 \openout5 = `KeTCindyBook.out'.
 
- (./CoverPage.tex
+\c@lstlisting=\count363
+
+(c:/texlive/2022/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (./CoverPage.tex
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 28.82996pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -943,6 +993,14 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 2
+6.
+
+(c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
@@ -1006,11 +1064,28 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
-) [3]) (./InitialSettings.tex [4]
-第2章
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 8.0pt on input line 1.
+) [3] [4]
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 2
+01.
+
+(c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
+File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 201.
 \openout4 = `KeTCindyBook-2.cpt'.
 
-(out/KeTCindyBook-2.cpt)) [5
+
+(out/KeTCindyBook-2.cpt)) (./InitialSettings.tex [5]
+第2章
+\openout4 = `KeTCindyBook-3.cpt'.
+
+(out/KeTCindyBook-3.cpt
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
+)) [6
 
 ] (out/KeTCindyBook.aux)
 
@@ -1021,12 +1096,12 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 (rerunfilecheck)             Checksum: 130322F1F5BD1C0C172FD0E34882C174;419.
  ) 
 Here is how much of TeX's memory you used:
- 27003 strings out of 476707
- 498440 string characters out of 5808796
+ 29015 strings out of 476707
+ 527616 string characters out of 5808796
  1856203 words of memory out of 5000000
- 46967 multiletter control sequences out of 15000+600000
- 560874 words of font info for 119 fonts, out of 8000000 for 9000
+ 48935 multiletter control sequences out of 15000+600000
+ 561270 words of font info for 120 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 83i,10n,89p,446b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,446b,1431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (6 pages, 25400 bytes).
+Output written on out/KeTCindyBook.dvi (7 pages, 32324 bytes).
