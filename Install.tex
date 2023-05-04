@@ -11,7 +11,7 @@
 \section{{\TeX}のインストール}
 
 {\ketcindy}は{\TeX}をベースとした教材作成支援システムとして開発された．
-そこで，{\ketcindy}をインストールする前に，Windowsにおける{\TeX}のインストール手順を説明する．
+そこで，{\ketcindy}をインストールする前に，{\TeX}のインストール手順を説明する．
 {\TeX}とは，コンピュータ上で出版物を作成できる組版システムのことである．
 {\TeX}のフルスペック版は{\TeX}Liveとして纏められたおり，毎年アップデートされ，最新版は{\TeX}Live2023である．
 
@@ -22,6 +22,7 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
 %%%%%%%%%%%%%%%%%%%% §1.1.1 %%%%%%%%%%%%%%%%%%%%
 \subsection{{\TeX}Liveの場合}
 
+\subsubsection{Windowsを使用している場合}
 \begin{enumerate}
     \item \url{https://www.tug.org}にアクセスする
     \item 右ペインにあるSoftwareからTeX Liveを選択する
@@ -30,13 +31,16 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
     \item exeファイルを管理者として実行\footnote{右クリックメニューから[管理者として実行]を選択}する
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
-
 インストール先にCドライブ直下を指定すると{\ketcindy}のインストール時に楽である．
 インターネット上から膨大な量のファイルをダウンロードするため，かなりの時間を要するはずである．
+
+\subsubsection{Macintoshを使用している場合}
+%TODO
 
 %%%%%%%%%%%%%%%%%%%% §1.1.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{KeT{\TeX}の場合}
 
+\subsubsection{Windowsを使用している場合}
 \begin{enumerate}
     \item \url{https://github.com/ketpic/kettex}にアクセスする
     \item 右ペインからReleasesを選択する
@@ -45,6 +49,15 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
     \item zipファイルを解凍しする
     \item 中にある\verb|kettexinst.cmd|を管理者として実行する
     \item インストーラに従いインストールを完了させる
+\end{enumerate}
+
+\subsubsection{Macintoshを使用している場合}
+\begin{enumerate}
+    \item \url{https://github.com/ketpic/kettex}にアクセスする
+    \item 右ペインからReleasesを選択する
+    \item \verb|KeTTeX-macos-20230320.dmg|を選択する
+    %TODO
+    \item ダウンロードしたdmgファイル内にある\verb||を アプリケーション に入れる
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%% §1.2 %%%%%%%%%%%%%%%%%%%%%
@@ -156,7 +169,6 @@ PDFファイルを開いている間にファイルがロックされない\foot
 
 ここでは，Apple M2 MacBook Air (Ventura 13.1)における{\ketcindy}のインストール手順を説明する．
 
-%ここからMac向けに改修
 \subsubsection{{\ketcindy}本体のインストール}
 \begin{enumerate}
     \item 表\ref{tab:download}のURLにアクセスする
@@ -179,10 +191,9 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item 表\ref{tab:download}のURLにアクセスする
     \item 右ペインから ダウンロード を選択する
     \item disk imageを選択する
-    \item ダウンロードしたdmgファイル内にある\verb|Cinderella|を左ペインにある アプリケーション に入れる
+    \item ダウンロードしたdmgファイル内にある\verb|Cinderella|を アプリケーション に入れる
 \end{enumerate}
 
-\newpage
 \subsubsection{Maximaのインストール}
 \begin{enumerate}
     \item 表\ref{tab:download}のURLにアクセスする

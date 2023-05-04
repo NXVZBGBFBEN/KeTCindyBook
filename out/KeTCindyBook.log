@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  30 MAR 2023 14:29
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  5 MAY 2023 02:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -994,69 +994,69 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 2
-6.
+7.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 27.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 26.
+(Font)              scaled to size 6.72699pt on input line 27.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 26.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+(Font)              scaled to size 4.805pt on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 30.
+(Font)              scaled to size 6.72699pt on input line 31.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 30.
+(Font)              scaled to size 5.76599pt on input line 31.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 30.
+(Font)              scaled to size 5.76599pt on input line 31.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 42.
+(Font)              scaled to size 9.60999pt on input line 46.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 42.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 42.
+(Font)              scaled to size 9.60999pt on input line 46.
  [1
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.99997pt
-(hyperref)                removed on input line 51.
+(hyperref)                removed on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lower' on input line 51.
+(hyperref)                removing `\lower' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 51.
+(hyperref)                removing `\hbox' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.25pt
-(hyperref)                removed on input line 51.
+(hyperref)                removed on input line 64.
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 62.
+(Font)              scaled to size 8.64899pt on input line 75.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 62.
-[2]
+(Font)              scaled to size 8.64899pt on input line 75.
+[2] [3]
 \openout4 = `KeTCindyBook-1.cpt'.
 
  (out/KeTCindyBook-1.cpt
@@ -1066,15 +1066,15 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
-) [3] [4]
+) [4]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 2
-01.
+12.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 201.
+(Font)              scaled to size 10.0pt on input line 212.
 \openout4 = `KeTCindyBook-2.cpt'.
 
 
@@ -1104,4 +1104,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (7 pages, 32324 bytes).
+Output written on out/KeTCindyBook.dvi (7 pages, 33264 bytes).
