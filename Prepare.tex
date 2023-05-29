@@ -5,7 +5,7 @@
 \addtocounter{page}{-1}
 
 %%%%%%%%%%%%%%%%%%%%%% §1 %%%%%%%%%%%%%%%%%%%%%%
-\chapter{インストール}
+\chapter{事前準備}
 
 %%%%%%%%%%%%%%%%%%%%% §1.1 %%%%%%%%%%%%%%%%%%%%%
 \section{{\TeX}のインストール}
@@ -74,21 +74,20 @@ Macintoshにおいては，{\TeX}LiveをベースとしてMac{\TeX}という{\Te
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%% §1.2 %%%%%%%%%%%%%%%%%%%%%
-\section{{\ketcindy}のインストール}
+\section{周辺ソフトウェアのインストール}
 
 {\ketcindy}は，動的幾何学ソフトCinderellaを用いて図形を描き，{\TeX}の図版ファイルを作るためのシステムである．
 gccやMaximaと連携することで，より複雑な処理をすることも可能である．
 
-ここでは，{\ketcindy}本体だけでなく，上述した連携可能ソフトウェアも含めたインストール手順を説明する．
+ここでは，{\ketcindy}と連携できるソフトウェアのインストール手順を説明する．
 
-必要なソフトウェア\footnote{太字のものは必須}およびURLの一覧を下に示す．
+ソフトウェア\footnote{太字のものは必須}およびURLの一覧を下に示す．
 
 \begin{table}[h]
     \centering
     \caption{ソフトウェア一覧}
     \label{tab:download}
     \begin{tabular}{c||l}
-        \textbf{\ketcindy}   & \url{https://github.com/ketpic/ketcindy}\\
         \textbf{R}           & \url{https://cran.r-project.org/}\\
         \textbf{Cinderella}  & \url{https://cinderella.de/tiki-index.php}\\
         Maxima      & \url{https://maxima.sourceforge.io/}\\
@@ -103,16 +102,6 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
 
 ここでは，64bit版Windows 11 Pro (22H2)における{\ketcindy}のインストール手順を説明する．
 特に説明されていない限り，インストール先フォルダは\verb|C:\Program Files|または\verb|C:\Program Files (x86)|を推奨する．
-
-\subsubsection{{\ketcindy}本体のインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item 右ペインからReleasesを選択する
-    \item Source code (zip)を選択する
-    \item ダウンロードしたzipファイルをCドライブ直下に移動する
-    \item zipファイルを解凍する
-    \item 解凍されたフォルダ名から「\verb|-|」（ハイフン）を取り除く
-\end{enumerate}
 
 \subsubsection{Rのインストール}
 \begin{enumerate}
@@ -131,6 +120,8 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
     \item ダウンロードしたexeファイルを管理者として実行する
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
+
+\newpage
 
 \subsubsection{Maximaのインストール}
 \begin{enumerate}
@@ -164,8 +155,6 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
           \cprotect\footnote{上の手順に従っている場合，\verb|ketcindyx.x.x|（\verb|x|はバージョン）}内にある\verb|doc\foremathJ|に入れる
 \end{enumerate}
 
-\newpage
-
 \subsubsection{PDFビューアのインストール}
 ここではSumatraPDFをインストールする．Adobe Acrobat等のPDFビューアも使用可能だが，
 PDFファイルを開いている間にファイルがロックされない\footnote{PDFファイルを開いていても外部でファイルの編集ができる}ため，
@@ -184,14 +173,6 @@ PDFファイルを開いている間にファイルがロックされない\foot
 
 ここでは，Apple M2 MacBook Air (Ventura 13.1)における{\ketcindy}のインストール手順を説明する．
 
-\subsubsection{{\ketcindy}本体のインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item 右ペインからReleasesを選択する
-    \item Source code (tar.gz)を選択する
-    \item ダウンロードしたtar.gzファイルを展開する
-\end{enumerate}
-
 \subsubsection{Rのインストール}
 \begin{enumerate}
     \item 表\ref{tab:download}のURLにアクセスする
@@ -208,8 +189,6 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item disk imageを選択する
     \item ダウンロードしたdmgファイル内にある\verb|Cinderella|を アプリケーション に入れる
 \end{enumerate}
-
-\newpage
 
 \subsubsection{Maximaのインストール}
 \begin{enumerate}

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  29 MAY 2023 14:32
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  29 MAY 2023 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -856,6 +856,10 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \zifour@ocount=\count358
 )
+(c:/texlive/2022/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
 (c:/texlive/2022/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
 Library (tcolorbox): 'tcbbreakable.code.tex' version '6.0.1'
 (c:/texlive/2022/texmf-dist/tex/latex/pdfcol/pdfcol.sty
@@ -878,28 +882,28 @@ File: l3backend-dvipdfmx.def 2023-01-16 L3 backend support: dvipdfmx
 (out/KeTCindyBook.aux)
 \openout1 = `KeTCindyBook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
 
 (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -911,11 +915,11 @@ F (HO)
 (c:/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )))
-Package hyperref Info: Link coloring OFF on input line 58.
+Package hyperref Info: Link coloring OFF on input line 59.
 
 (out/KeTCindyBook.out) (out/KeTCindyBook.out)
-\@outlinefile=\write5
-\openout5 = `KeTCindyBook.out'.
+\@outlinefile=\write6
+\openout6 = `KeTCindyBook.out'.
 
 \c@lstlisting=\count363
 
@@ -956,7 +960,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 23.90964pt on input line 6.
-) (./Install.tex [0
+) (./Prepare.tex [0
 
 ]
 第1章
@@ -1034,58 +1038,54 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
  [1
 
 ] [2]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern -1.99997pt
-(hyperref)                removed on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lower' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 77.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern -1.25pt
-(hyperref)                removed on input line 77.
-
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 88.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 88.
-[3]
+ [3]
 \openout4 = `KeTCindyBook-1.cpt'.
 
- (out/KeTCindyBook-1.cpt
+
+(out/KeTCindyBook-1.cpt
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
-) [4] [5]
+) [4]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 2
-29.
+08.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 229.
+(Font)              scaled to size 10.0pt on input line 208.
 \openout4 = `KeTCindyBook-2.cpt'.
 
 
-(out/KeTCindyBook-2.cpt)) (./InitialSettings.tex [6]
+(out/KeTCindyBook-2.cpt)) (./InstallAndSettings.tex [5]
 第2章
-\openout4 = `KeTCindyBook-3.cpt'.
 
-(out/KeTCindyBook-3.cpt
-LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 12.0pt on input line 1.
-)) [7
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -1.99997pt
+(hyperref)                removed on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lower' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 6.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern -1.25pt
+(hyperref)                removed on input line 6.
+
+Excluding 'comment' comment.) [6
 
 ] (out/KeTCindyBook.aux)
 
@@ -1093,15 +1093,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
 
 Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
-(rerunfilecheck)             Checksum: 130322F1F5BD1C0C172FD0E34882C174;419.
+(rerunfilecheck)             Checksum: 5D5B6F88F89E0C4F25E805EFB7F7AD06;394.
  ) 
 Here is how much of TeX's memory you used:
- 29015 strings out of 476707
- 527616 string characters out of 5808796
- 1855203 words of memory out of 5000000
- 48935 multiletter control sequences out of 15000+600000
- 561270 words of font info for 120 fonts, out of 8000000 for 9000
+ 29055 strings out of 476707
+ 528526 string characters out of 5808796
+ 1857203 words of memory out of 5000000
+ 48978 multiletter control sequences out of 15000+600000
+ 560731 words of font info for 118 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (8 pages, 35832 bytes).
+Output written on out/KeTCindyBook.dvi (7 pages, 33720 bytes).

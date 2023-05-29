@@ -1,17 +1,16 @@
 # Fdb version 4
-["dvipdf"] 1685338334 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1685338335 0
-  "out/KeTCindyBook.dvi" 1685338333 35832 bdebb3955022ac30be6ce4a16da15299 "latex"
+["dvipdf"] 1685344319 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1685344320 0
+  "out/KeTCindyBook.dvi" 1685344319 33720 bf2ffc9d4c8144e4654f3afbac408189 "latex"
   (generated)
   "out/KeTCindyBook.pdf"
   (rewritten before read)
-["latex"] 1685338331 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1685338335 0
+["latex"] 1685344317 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1685344320 0
   "CoverPage.tex" 1679762578 389 93d5043574a1747647885ef8c4274b06 ""
-  "InitialSettings.tex" 1680117130 1097 4ebaaad1780087124f1c79833a5cdfed ""
-  "Install.tex" 1685338327 12251 24a35a91ed42ce2bff78140057d79cbf ""
-  "KeTCindyBook.tex" 1680154154 1495 d60d5591d02ed14ce9699e0ff2d4ec32 ""
+  "InstallAndSettings.tex" 1685344316 2379 0c9d675684156ab6e642688515a9f8ea ""
+  "KeTCindyBook.tex" 1685343007 1520 a1e5dfa0d6cce127223fc1fc765eb01f ""
+  "Prepare.tex" 1685342630 11324 5197169757db4692b2e3fb1430bc0257 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1664302671 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/bookman/pbkd7t.tfm" 1653839221 1828 e7f8907b15e46b672fb146aef572259e ""
-  "c:/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1653839967 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1664307540 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1664307540 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1664307540 856 7404843a5f798859944d7973a47821d5 ""
@@ -125,6 +124,7 @@
   "c:/texlive/2022/texmf-dist/tex/latex/base/textcomp.sty" 1677607795 2894 f2f8ee7d4fb94263f9f255fa22cab2d3 ""
   "c:/texlive/2022/texmf-dist/tex/latex/bigfoot/suffix.sty" 1653839172 3090 223874a03a08cecb9fb79bd86e5dcf97 ""
   "c:/texlive/2022/texmf-dist/tex/latex/bxjatoucs/bxjatoucs.sty" 1653839261 9159 ebd68ea70b64dbc04bdc806c9afa9ea1 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/comment/comment.sty" 1653839557 10197 204f75d5d8d88aa345a8c402e879e63b ""
   "c:/texlive/2022/texmf-dist/tex/latex/cprotect/cprotect.sty" 1653839689 8944 30f7847cba441655be95851fd97a2e20 ""
   "c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty" 1653840041 4378 f429f0da968c278653359293040a8f52 ""
   "c:/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1653840080 11772 8d0db0794e6aeb45348f60bbe3a3e093 ""
@@ -208,15 +208,13 @@
   "c:/texlive/texmf-local/tex/platex/emath/emathK.sty" 1131276948 4990 6a5614fc78f8de11eb3f29d70675d83e ""
   "c:/texlive/texmf-local/tex/platex/emath/emathMw.sty" 1131276948 24898 83d70bee2acafb2e78ae28668490ef9d ""
   "c:/texlive/texmf-local/tex/platex/emath/jquote.sty" 1131276948 1898 4d0cded33ef7e87e3d0c400f64f05835 ""
-  "out/KeTCindyBook-1.cpt" 1685338333 99 7353af102a36fe59d71cb31ae7821114 "latex"
-  "out/KeTCindyBook-2.cpt" 1685338333 99 7353af102a36fe59d71cb31ae7821114 "latex"
-  "out/KeTCindyBook-3.cpt" 1685338333 50 a5b52dc0fb5670d4e62e570559253cb3 "latex"
-  "out/KeTCindyBook.aux" 1685338333 4546 09ab6387c7c19a910199e52874ea4d65 "latex"
-  "out/KeTCindyBook.out" 1685338333 419 130322f1f5bd1c0c172fd0e34882c174 "latex"
+  "out/KeTCindyBook-1.cpt" 1685344319 99 7353af102a36fe59d71cb31ae7821114 "latex"
+  "out/KeTCindyBook-2.cpt" 1685344319 99 7353af102a36fe59d71cb31ae7821114 "latex"
+  "out/KeTCindyBook.aux" 1685344319 4167 1c777f4a8e805db5b37f1e9181477827 "latex"
+  "out/KeTCindyBook.out" 1685344319 394 5d5b6f88f89e0c4f25e805efb7f7ad06 "latex"
   (generated)
   "out/KeTCindyBook-1.cpt"
   "out/KeTCindyBook-2.cpt"
-  "out/KeTCindyBook-3.cpt"
   "out/KeTCindyBook.aux"
   "out/KeTCindyBook.dvi"
   "out/KeTCindyBook.log"
@@ -224,4 +222,3 @@
   (rewritten before read)
   "out/KeTCindyBook-1.cpt"
   "out/KeTCindyBook-2.cpt"
-  "out/KeTCindyBook-3.cpt"
