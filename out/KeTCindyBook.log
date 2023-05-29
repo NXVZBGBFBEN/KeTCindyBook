@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  5 MAY 2023 02:53
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  29 MAY 2023 14:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,39 +1024,39 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 (Font)              scaled to size 5.76599pt on input line 31.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 46.
+(Font)              scaled to size 9.60999pt on input line 40.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 46.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 46.
+(Font)              scaled to size 9.60999pt on input line 40.
  [1
 
-]
+] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.99997pt
-(hyperref)                removed on input line 64.
+(hyperref)                removed on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lower' on input line 64.
+(hyperref)                removing `\lower' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 64.
+(hyperref)                removing `\hbox' on input line 77.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \kern -1.25pt
-(hyperref)                removed on input line 64.
+(hyperref)                removed on input line 77.
 
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 75.
+(Font)              scaled to size 8.64899pt on input line 88.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 75.
-[2] [3]
+(Font)              scaled to size 8.64899pt on input line 88.
+[3]
 \openout4 = `KeTCindyBook-1.cpt'.
 
  (out/KeTCindyBook-1.cpt
@@ -1066,26 +1066,26 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 8.0pt on input line 1.
-) [4]
+) [4] [5]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 2
-12.
+29.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 212.
+(Font)              scaled to size 10.0pt on input line 229.
 \openout4 = `KeTCindyBook-2.cpt'.
 
 
-(out/KeTCindyBook-2.cpt)) (./InitialSettings.tex [5]
+(out/KeTCindyBook-2.cpt)) (./InitialSettings.tex [6]
 第2章
 \openout4 = `KeTCindyBook-3.cpt'.
 
 (out/KeTCindyBook-3.cpt
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 1.
-)) [6
+)) [7
 
 ] (out/KeTCindyBook.aux)
 
@@ -1098,10 +1098,10 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 Here is how much of TeX's memory you used:
  29015 strings out of 476707
  527616 string characters out of 5808796
- 1856203 words of memory out of 5000000
+ 1855203 words of memory out of 5000000
  48935 multiletter control sequences out of 15000+600000
  561270 words of font info for 120 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1431s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (7 pages, 33264 bytes).
+Output written on out/KeTCindyBook.dvi (8 pages, 35832 bytes).

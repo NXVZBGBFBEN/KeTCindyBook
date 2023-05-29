@@ -25,17 +25,29 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
 \subsubsection{Windowsを使用している場合}
 \begin{enumerate}
     \item \url{https://www.tug.org}にアクセスする
-    \item 右ペインにあるSoftwareからTeX Liveを選択する
+    \item 右ペインにあるSoftwareからTeXLiveを選択する
     \item install on Windowsを選択する
     \item \verb|install-tl-windows.exe|を選択する
     \item exeファイルを管理者として実行\footnote{右クリックメニューから[管理者として実行]を選択}する
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
 インストール先にCドライブ直下を指定すると{\ketcindy}のインストール時に楽である．
-インターネット上から膨大な量のファイルをダウンロードするため，かなりの時間を要するはずである．
 
 \subsubsection{Macintoshを使用している場合}
-%TODO
+Macintoshにおいては，{\TeX}LiveをベースとしてMac{\TeX}という{\TeX}ディストリビューションが開発されている．
+ここでは，{\TeX}Liveの代わりにMac{\TeX}のインストール手順を説明する．
+\begin{enumerate}
+    \item \url{https://tug.org}にアクセスする
+    \item 右ペインにあるSoftwareからMacTeXを選択する
+    \item MacTeX Download Pageを選択する
+    \item 下にスクロールし，Installation Errorsからmirror pageを選択する
+    \item www.ctan.org/mirrors/mirmonを選択する
+    \item regionsからjpを選択し，更新時間が最新のミラーを選択する
+    \item 上にスクロールし，MacTeXを選択する
+    \item \verb|MacTeX.pkg|を選択する
+    \item ダウンロードしたpkgファイルを実行する
+    \item インストーラに従いインストールを完了させる
+\end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%% §1.1.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{KeT{\TeX}の場合}
@@ -56,9 +68,10 @@ KeT{\TeX}は1.6GB程度とサイズが小さく，日本語で文書を作成す
     \item \url{https://github.com/ketpic/kettex}にアクセスする
     \item 右ペインからReleasesを選択する
     \item \verb|KeTTeX-macos-20230320.dmg|を選択する
-    %TODO
-    \item ダウンロードしたdmgファイル内にある\verb||を アプリケーション に入れる
+    \item ダウンロードしたdmgファイル内にある\verb|KeTTeX|を アプリケーション に入れる
 \end{enumerate}
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%% §1.2 %%%%%%%%%%%%%%%%%%%%%
 \section{{\ketcindy}のインストール}
@@ -151,6 +164,8 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
           \cprotect\footnote{上の手順に従っている場合，\verb|ketcindyx.x.x|（\verb|x|はバージョン）}内にある\verb|doc\foremathJ|に入れる
 \end{enumerate}
 
+\newpage
+
 \subsubsection{PDFビューアのインストール}
 ここではSumatraPDFをインストールする．Adobe Acrobat等のPDFビューアも使用可能だが，
 PDFファイルを開いている間にファイルがロックされない\footnote{PDFファイルを開いていても外部でファイルの編集ができる}ため，
@@ -193,6 +208,8 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item disk imageを選択する
     \item ダウンロードしたdmgファイル内にある\verb|Cinderella|を アプリケーション に入れる
 \end{enumerate}
+
+\newpage
 
 \subsubsection{Maximaのインストール}
 \begin{enumerate}
