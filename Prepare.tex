@@ -79,13 +79,14 @@ Macintoshにおいては，{\TeX}LiveをベースとしてMac{\TeX}という{\Te
 {\ketcindy}は，動的幾何学ソフトCinderellaを用いて図形を描き，{\TeX}の図版ファイルを作るためのシステムである．
 gccやMaximaと連携することで，より複雑な処理をすることも可能である．
 
-ここでは，{\ketcindy}と連携できるソフトウェアのインストール手順を説明する．
+ここでは，{\ketcindy}と連携できるソフトウェアのインストール手順
+\footnote{emathは{\ketcindy}と一緒にインストールするため，ダウンロード手順のみ示す}を説明する．
 
-ソフトウェア\footnote{太字のものは必須}およびURLの一覧を下に示す．
+連携ソフトウェア\footnote{太字のものは必須}およびURLの一覧を下に示す．
 
 \begin{table}[h]
     \centering
-    \caption{ソフトウェア一覧}
+    \caption{連携ソフトウェア一覧}
     \label{tab:download}
     \begin{tabular}{c||l}
         \textbf{R}           & \url{https://cran.r-project.org/}\\
@@ -100,7 +101,7 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
 %%%%%%%%%%%%%%%%%%%% §1.2.1 %%%%%%%%%%%%%%%%%%%%
 \subsection{Windowsの場合}
 
-ここでは，64bit版Windows 11 Pro (22H2)における{\ketcindy}のインストール手順を説明する．
+ここでは，64bit版Windows 11 Pro (22H2)における連携ソフトウェアのインストール手順を説明する．
 特に説明されていない限り，インストール先フォルダは\verb|C:\Program Files|または\verb|C:\Program Files (x86)|を推奨する．
 
 \subsubsection{Rのインストール}
@@ -149,10 +150,6 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
     \item 表\ref{tab:download}のURLにアクセスする
     \item 入口→丸ごとパック と進む
     \item \verb|emathf051107c.zip|を選択する
-    \item ダウンロードしたzipファイルを解凍する
-    \item 中にある\verb|sty.zip|を解凍する
-    \item \verb|sty|フォルダを{\ketcindy}フォルダ
-          \cprotect\footnote{上の手順に従っている場合，\verb|ketcindyx.x.x|（\verb|x|はバージョン）}内にある\verb|doc\foremathJ|に入れる
 \end{enumerate}
 
 \subsubsection{PDFビューアのインストール}
@@ -168,10 +165,12 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
 
+\newpage
+
 %%%%%%%%%%%%%%%%%%%% §1.2.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{Macintoshの場合}
 
-ここでは，Apple M2 MacBook Air (Ventura 13.1)における{\ketcindy}のインストール手順を説明する．
+ここでは，Apple M2 MacBook Air (Ventura 13.1)における連携ソフトウェアのインストール手順を説明する．
 
 \subsubsection{Rのインストール}
 \begin{enumerate}
@@ -214,8 +213,4 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item 表\ref{tab:download}のURLにアクセスする
     \item 入口→丸ごとパック と進む
     \item \verb|emathf051107c.zip|を選択する
-    \item ダウンロードしたzipファイルを解凍する
-    \item 中にある\verb|sty.zip|を解凍する
-    \item \verb|sty|フォルダを{\ketcindy}フォルダ
-    \cprotect\footnote{上の手順に従っている場合，\verb|ketcindyx.x.x|（\verb|x|はバージョン）}内にある\verb|doc\foremathJ|に入れる
 \end{enumerate}
