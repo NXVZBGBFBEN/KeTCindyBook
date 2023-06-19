@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  19 JUN 2023 17:06
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  19 JUN 2023 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1074,7 +1074,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [8
 
-]) [9] (out/KeTCindyBook.aux)
+] [9]) [10] (out/KeTCindyBook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
@@ -1085,10 +1085,10 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 Here is how much of TeX's memory you used:
  29045 strings out of 476707
  528361 string characters out of 5808796
- 1856203 words of memory out of 5000000
+ 1857203 words of memory out of 5000000
  48975 multiletter control sequences out of 15000+600000
  560246 words of font info for 115 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (10 pages, 45604 bytes).
+Output written on out/KeTCindyBook.dvi (11 pages, 47672 bytes).
