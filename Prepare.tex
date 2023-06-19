@@ -49,6 +49,14 @@ Macintoshにおいては，{\TeX}LiveをベースとしてMac{\TeX}という{\Te
     \item インストーラに従いインストールを完了させる
 \end{enumerate}
 
+\subsubsection{Linuxを使用している場合}
+\begin{enumerate}
+    \item \url{https://www.tug.org}にアクセスする
+    \item 右ペインにあるSoftwareからTeXLiveを選択する
+    \item install on Unix/GNU/Linuxを選択する
+    \item tl;dr: Unix(ish)の手順に従いインストールを完了させる
+\end{enumerate}
+
 %%%%%%%%%%%%%%%%%%%% §1.1.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{KeT{\TeX}の場合}
 
@@ -206,6 +214,55 @@ PDFファイルを開いている間にファイルがロックされない\foot
           \begin{lstlisting}
   $ sudo xcode-select --install
           \end{lstlisting}
+\end{enumerate}
+
+\subsubsection{emathのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 入口→丸ごとパック と進む
+    \item \verb|emathf051107c.zip|を選択する
+\end{enumerate}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%% §1.2.3 %%%%%%%%%%%%%%%%%%%%
+\subsection{Linuxの場合}
+
+ここでは，Ubuntu 22.04.2 LTS x86\_64における連携ソフトウェアのインストール手順を説明する．
+
+\subsubsection{Rのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item Download R for LinuxからUbuntuを選択する
+    \item 指示に従いインストールを完了させる
+\end{enumerate}
+
+\subsubsection{Cinderellaのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 右ペインから ダウンロード を選択する
+    \item beta.cinderella.deを選択する
+    \item Unix installerを選択する
+    \item ダウンロードフォルダに移動する
+    \item ダウンロードしたshファイルに実行権限を与え，実行する
+    \item インストーラに従いインストールを完了させる
+\end{enumerate}
+
+\subsubsection{Maximaのインストール}
+\begin{enumerate}
+    \item 表\ref{tab:download}のURLにアクセスする
+    \item 右ペインからDownloadsを選択する
+    \item Using a Linux Packageからthis linkを選択する
+    \item ダイアログからAptURLを選択して，Openをクリックする
+    \item インストーラに従いインストールを完了させる
+\end{enumerate}
+
+\subsubsection{gccのインストール}
+\begin{enumerate}
+    \item ターミナルから次のコマンドを実行する
+    \begin{lstlisting}
+  $ sudo apt install gcc
+    \end{lstlisting}
 \end{enumerate}
 
 \subsubsection{emathのインストール}

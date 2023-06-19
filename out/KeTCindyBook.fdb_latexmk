@@ -1,14 +1,14 @@
 # Fdb version 4
-["dvipdf"] 1685668312 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1685668314 0
-  "out/KeTCindyBook.dvi" 1685668312 34496 aee13420e8090e0a0b291e3ade412786 "latex"
+["dvipdf"] 1687149922 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1687149923 0
+  "out/KeTCindyBook.dvi" 1687149921 40624 cbd60ae7037322c122cff17097a0b982 "latex"
   (generated)
   "out/KeTCindyBook.pdf"
   (rewritten before read)
-["latex"] 1685668309 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1685668314 0
+["latex"] 1687149919 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1687149923 0
   "CoverPage.tex" 1679762578 389 93d5043574a1747647885ef8c4274b06 ""
-  "InstallAndSettings.tex" 1685668305 3655 593c4712536057c128897a270c826a8a ""
+  "InstallAndSettings.tex" 1685670792 2449 c3a610b8b6a3a9930e2cdba9f158b6c7 ""
   "KeTCindyBook.tex" 1685343007 1520 a1e5dfa0d6cce127223fc1fc765eb01f ""
-  "Prepare.tex" 1685667286 10801 63ad8d16c13fa76f8914803950ca82ea ""
+  "Prepare.tex" 1687149917 13026 7de796f7fc08c21b4654429a0ea19f98 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1664302671 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/bookman/pbkd7t.tfm" 1653839221 1828 e7f8907b15e46b672fb146aef572259e ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1664307540 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -208,8 +208,8 @@
   "c:/texlive/texmf-local/tex/platex/emath/emathK.sty" 1131276948 4990 6a5614fc78f8de11eb3f29d70675d83e ""
   "c:/texlive/texmf-local/tex/platex/emath/emathMw.sty" 1131276948 24898 83d70bee2acafb2e78ae28668490ef9d ""
   "c:/texlive/texmf-local/tex/platex/emath/jquote.sty" 1131276948 1898 4d0cded33ef7e87e3d0c400f64f05835 ""
-  "out/KeTCindyBook.aux" 1685668312 4682 b69efb2d916a8f09d7020a268b6cf9e0 "latex"
-  "out/KeTCindyBook.out" 1685668312 458 92f17e2a04e4bc358cf774df2c6f2045 "latex"
+  "out/KeTCindyBook.aux" 1687149921 5501 d935d48e3411d87ded9e0e6ae86f1dff "latex"
+  "out/KeTCindyBook.out" 1687149921 458 92f17e2a04e4bc358cf774df2c6f2045 "latex"
   (generated)
   "out/KeTCindyBook.aux"
   "out/KeTCindyBook.dvi"
