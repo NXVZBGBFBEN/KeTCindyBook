@@ -34,6 +34,18 @@
 
 \newpage
 
+%%%%%%%%%%%%%%%%%%%% §2.1.3 %%%%%%%%%%%%%%%%%%%%
+\subsection{Linuxの場合}
+\begin{enumerate}
+    \item リポジトリにアクセスする
+    \item 右ペインからReleasesを選択する
+    \item Source code (tar.gz)を選択する
+    \item ターミナルから次のコマンドを実行し，任意のディレクトリ（ここでは\verb|~|）に解凍する
+    \begin{lstlisting}
+  $ tar xvzf ketcindy-4.4.32.tar.gz -C ~
+    \end{lstlisting}
+\end{enumerate}
+
 %%%%%%%%%%%%%%%%%%%%% §2.2 %%%%%%%%%%%%%%%%%%%%%
 \section{インストール}
 
@@ -41,19 +53,28 @@
 
 %%%%%%%%%%%%%%%%%%%% §2.2.1 %%%%%%%%%%%%%%%%%%%%
 \subsection{emathとの連携}
-emathとの連携を利用する場合は，下記の手順に従って適切な位置にファイルを配置する必要がある．
+emathとの連携を利用する場合は，下記の手順に従ってインストールする必要がある．
 \begin{enumerate}
     \item 事前にダウンロードした\verb|emathf051107c.zip|を解凍する
     \item 中にある\verb|sty.zip|を解凍する
     \item \verb|sty|フォルダを{\ketcindy}のフォルダ内にある\verb|doc\foremathJ|に入れる
+    \item \verb|copymath.cdy|を開く
+    \item 使用する{\TeX}ディストリビューションを選択する
+    \item CopyEmathをクリックする
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%% §2.2.2 %%%%%%%%%%%%%%%%%%%%
-\subsection{Windowsの場合}
+\subsection{Windows・Linuxの場合}
 \begin{enumerate}
     \item {\ketcindy}フォルダを開く
     \item \verb|doc|フォルダ内にある\verb|ketcindysettings.cdy|を開く
-    \item
+    \item Langを押して言語を選択する
+    \item Texを押して図形の出力に使用する{\LaTeX}エンジンを選択する
+    \item Graphicを押して描画に使用するパッケージを選択する
+    \item 使用する{\TeX}ディストリビューションをTexlive，Kettex，Otherのいずれかから選択する
+    \item Mkinitを押す
+    \item Updateを押す
+    \item Workを押す
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%% §2.2.3 %%%%%%%%%%%%%%%%%%%%
