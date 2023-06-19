@@ -1335,14 +1335,14 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 INPUT c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT ./InstallAndSettings.tex
 INPUT ./InstallAndSettings.tex
 INPUT ./InstallAndSettings.tex
