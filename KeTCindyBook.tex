@@ -56,6 +56,9 @@
 \renewcommand{\tablename}{\textcolor{gray}{▼} 表}
 \renewcommand{\figurename}{\textcolor{gray}{▲} 図}
 
+\setlength{\textwidth}{160mm}  %本文の幅(textwidth)を全体の幅(=ヘッダ部の幅)にそろえる
+\setlength{\evensidemargin}{\oddsidemargin} %偶数ページの余白と奇数ページの余白をそろえる
+
 \begin{document}
 
     \input{coverpage}
@@ -63,5 +66,7 @@
     \input{Prepare}
 
     \input{InstallAndSettings}
+
+    \input{BasicUsage}
 
 \end{document}

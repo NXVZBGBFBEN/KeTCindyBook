@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  19 JUN 2023 17:19
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 02:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -882,28 +882,28 @@ File: l3backend-dvipdfmx.def 2023-01-16 L3 backend support: dvipdfmx
 (out/KeTCindyBook.aux)
 \openout1 = `KeTCindyBook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 
 (c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -915,7 +915,7 @@ F (HO)
 (c:/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )))
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 62.
 
 (out/KeTCindyBook.out) (out/KeTCindyBook.out)
 \@outlinefile=\write6
@@ -997,61 +997,87 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 11.53198pt on input line 23.
-LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 2
-7.
+File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
+<./out/fig/texlive-win-1.png>
+File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
+<./out/fig/texlive-win-1.png>
+File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
+<./out/fig/texlive-win-1.png>
+File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
+<./out/fig/texlive-win-1.png>
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 3
+2.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 27.
+(Font)              scaled to size 10.0pt on input line 32.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 27.
+(Font)              scaled to size 6.72699pt on input line 32.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 27.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+(Font)              scaled to size 4.805pt on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 31.
+(Font)              scaled to size 6.72699pt on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 31.
+(Font)              scaled to size 5.76599pt on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 31.
+(Font)              scaled to size 5.76599pt on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 40.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 40.
+(Font)              scaled to size 9.60999pt on input line 45.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 40.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 40.
+(Font)              scaled to size 9.60999pt on input line 45.
  [1
 
-] [2]
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 9
-2.
+]
+File: ./out/fig/kettex-1.png Graphic file (type bmp)
+<./out/fig/kettex-1.png>
+File: ./out/fig/kettex-1.png Graphic file (type bmp)
+<./out/fig/kettex-1.png>
+File: ./out/fig/kettex-1.png Graphic file (type bmp)
+<./out/fig/kettex-1.png>
+File: ./out/fig/kettex-1.png Graphic file (type bmp)
+<./out/fig/kettex-1.png>
+ [2]
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
+02.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
+(Font)              scaled to size 10.0pt on input line 102.
  [3]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 112.
+(Font)              scaled to size 8.64899pt on input line 122.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 112.
- [4] [5]
+(Font)              scaled to size 8.64899pt on input line 122.
+ [4]
+File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
+<./out/fig/maxima-win-1.png>
+File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
+<./out/fig/maxima-win-1.png>
+File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
+<./out/fig/maxima-win-1.png>
+File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
+<./out/fig/maxima-win-1.png>
+ [5]
 [6]) (./InstallAndSettings.tex [7]
 第2章
 
@@ -1074,21 +1100,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [8
 
-] [9]) [10] (out/KeTCindyBook.aux)
+] [9]) (./BasicUsage.tex [10]
+第3章
+) [11
+
+] (out/KeTCindyBook.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
 
 Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
-(rerunfilecheck)             Checksum: 92F17E2A04E4BC358CF774DF2C6F2045;458.
+(rerunfilecheck)             Checksum: C76480CC81517195D680A8C97A3BBBFA;514.
  ) 
 Here is how much of TeX's memory you used:
- 29045 strings out of 476707
- 528361 string characters out of 5808796
- 1857203 words of memory out of 5000000
- 48975 multiletter control sequences out of 15000+600000
+ 29104 strings out of 476707
+ 529846 string characters out of 5808796
+ 1931203 words of memory out of 5000000
+ 49020 multiletter control sequences out of 15000+600000
  560246 words of font info for 115 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (11 pages, 47672 bytes).
+Output written on out/KeTCindyBook.dvi (12 pages, 116504 bytes).
