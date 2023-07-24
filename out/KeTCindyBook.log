@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 15:17
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1064,17 +1064,17 @@ File: ./out/fig/kettex-1.png Graphic file (type bmp)
 <./out/fig/kettex-1.png>
  [2]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
-02.
+03.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 102.
+(Font)              scaled to size 10.0pt on input line 103.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 120.
+(Font)              scaled to size 8.64899pt on input line 121.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 120.
+(Font)              scaled to size 8.64899pt on input line 121.
  [3]
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
 <./out/fig/maxima-win-1.png>
@@ -1136,4 +1136,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (12 pages, 48808 bytes).
+Output written on out/KeTCindyBook.dvi (12 pages, 48856 bytes).
