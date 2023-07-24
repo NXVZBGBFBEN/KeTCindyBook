@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 13:59
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1071,12 +1071,11 @@ File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 102.
- [3]
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 122.
+(Font)              scaled to size 8.64899pt on input line 120.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 122.
- [4]
+(Font)              scaled to size 8.64899pt on input line 120.
+ [3]
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
 <./out/fig/maxima-win-1.png>
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
@@ -1093,7 +1092,7 @@ File: ./out/fig/c-win-1.png Graphic file (type bmp)
 <./out/fig/c-win-1.png>
 File: ./out/fig/c-win-1.png Graphic file (type bmp)
 <./out/fig/c-win-1.png>
- [5]
+ [4] [5]
 [6]) (./InstallAndSettings.tex [7]
 第2章
 
@@ -1131,10 +1130,10 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 Here is how much of TeX's memory you used:
  29134 strings out of 476707
  530692 string characters out of 5808796
- 1855203 words of memory out of 5000000
+ 1859203 words of memory out of 5000000
  49048 multiletter control sequences out of 15000+600000
  560246 words of font info for 115 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (12 pages, 48792 bytes).
+Output written on out/KeTCindyBook.dvi (12 pages, 48808 bytes).
