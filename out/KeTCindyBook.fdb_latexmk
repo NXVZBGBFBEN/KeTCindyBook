@@ -1,15 +1,15 @@
 # Fdb version 4
-["dvipdf"] 1690180158 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1690180160 0
-  "out/KeTCindyBook.dvi" 1690180157 48856 2e749722671f0053c656696aebacf052 "latex"
+["dvipdf"] 1690186556 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1690186557 0
+  "out/KeTCindyBook.dvi" 1690186556 48496 9baaad1f1d80ec765ed4d938c1c52631 "latex"
   (generated)
   "out/KeTCindyBook.pdf"
   (rewritten before read)
-["latex"] 1690180151 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1690180160 0
+["latex"] 1690186552 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1690186557 0
   "BasicUsage.tex" 1688359282 367 ac6864926ab9a256c51576fc2e5ca362 ""
   "CoverPage.tex" 1679762578 389 93d5043574a1747647885ef8c4274b06 ""
-  "InstallAndSettings.tex" 1690132158 4146 6067a62afa933c095f92e770d3deef28 ""
+  "InstallAndSettings.tex" 1690186551 5306 ddd15f53698493a7d11bb8d5f9fb5ab5 ""
   "KeTCindyBook.tex" 1690173464 1769 14ed9d4d98ed95b8c60ba912c9d83c3a ""
-  "Prepare.tex" 1690180150 14337 2be4355836d25b5bc175701bfe183a3c ""
+  "Prepare.tex" 1690180808 13348 2fec077b5603d6b929b32a0531182571 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1664302671 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/bookman/pbkd7t.tfm" 1653839221 1828 e7f8907b15e46b672fb146aef572259e ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1664307540 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -209,8 +209,8 @@
   "c:/texlive/texmf-local/tex/platex/emath/emathK.sty" 1131276948 4990 6a5614fc78f8de11eb3f29d70675d83e ""
   "c:/texlive/texmf-local/tex/platex/emath/emathMw.sty" 1131276948 24898 83d70bee2acafb2e78ae28668490ef9d ""
   "c:/texlive/texmf-local/tex/platex/emath/jquote.sty" 1131276948 1898 4d0cded33ef7e87e3d0c400f64f05835 ""
-  "out/KeTCindyBook.aux" 1690180157 5966 0e199e0f4d52b5378eb1a827759a266c "latex"
-  "out/KeTCindyBook.out" 1690180157 514 c76480cc81517195d680a8c97a3bbbfa "latex"
+  "out/KeTCindyBook.aux" 1690186556 5841 61ae2d268417d19e2a5aff4ef3a9a8b9 "latex"
+  "out/KeTCindyBook.out" 1690186556 595 88f2ba3199a586a92aef6bdcbdf5df2a "latex"
   "out/fig/c-win-1.png" 1690174716 66955 f67eafcb3f573a7b69cdf9fe49e42906 ""
   "out/fig/kettex-1.png" 1688368510 36122 04b0b71220659c8a4419a393b3438588 ""
   "out/fig/maxima-win-1.png" 1688371084 55924 6dd64cf2a513acc8e5112d386b677366 ""

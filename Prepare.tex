@@ -111,8 +111,7 @@ Macintoshにおいては，{\TeX}LiveをベースとしてMac{\TeX}という{\Te
 {\ketcindy}は，動的幾何学ソフトCinderellaを用いて図形を描き，{\TeX}の図版ファイルを作るためのシステムである．
 gccやMaximaと連携することで，より複雑な処理をすることも可能である．
 
-ここでは，{\ketcindy}と連携できるソフトウェアのインストール手順
-\footnote{emathは{\ketcindy}と一緒にインストールするため，ダウンロード手順のみ示す}を説明する．
+ここでは，{\ketcindy}と連携できるソフトウェアのインストール手順を説明する．
 
 連携ソフトウェア\footnote{太字のものは必須}およびURLの一覧を下に示す．
 
@@ -125,7 +124,6 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
         \textbf{Cinderella}  & \url{https://cinderella.de/tiki-index.php}\\
         Maxima      & \url{https://maxima.sourceforge.io/}\\
         MinGW-w64   & \url{https://www.mingw-w64.org/}\\
-        emath       & \url{http://emath.s40.xrea.com/}\\
         SumatraPDF  & \url{https://www.sumatrapdfreader.org/free-pdf-reader}
     \end{tabular}
 \end{table}
@@ -184,18 +182,9 @@ gccやMaximaと連携することで，より複雑な処理をすることも�
     \item 中にある\verb|bin|フォルダの絶対パスをシステム環境変数として登録する
 \end{enumerate}
 
-\subsubsection{emathのインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item こちら→入口→丸ごとパック と進む
-    \item \verb|emathf051107c.zip|を選択する
-\end{enumerate}
-
-\newpage
-
 \subsubsection{PDFビューアのインストール}
 ここではSumatraPDFをインストールする．Adobe Acrobat等のPDFビューアも使用可能だが，
-PDFファイルを開いている間にファイルがロックされない\footnote{PDFファイルを開いていても外部でファイルの編集ができる}ため，
+PDFファイルを開いている間にファイルがロックされない\footnote{PDFファイルを開いたまま更新できる}ため，
 特にこだわりがなければSumatraPDFがお薦めである．
 \begin{enumerate}
     \item 表\ref{tab:download}のURLにアクセスする
@@ -239,21 +228,12 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item 開く を選択し，セキュリティ警告を消す
 \end{enumerate}
 
-\newpage
-
 \subsubsection{gccのインストール}
 \begin{enumerate}
     \item ターミナルから次のコマンドを実行する
           \begin{lstlisting}
   $ sudo xcode-select --install
           \end{lstlisting}
-\end{enumerate}
-
-\subsubsection{emathのインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item こちら→入口→丸ごとパック と進む
-    \item \verb|emathf051107c.zip|を選択する
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%% §1.2.3 %%%%%%%%%%%%%%%%%%%%
@@ -267,6 +247,8 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \item Download R for LinuxからUbuntuを選択する
     \item 指示に従いインストールを完了させる
 \end{enumerate}
+
+\newpage
 
 \subsubsection{Cinderellaのインストール}
 \begin{enumerate}
@@ -294,13 +276,4 @@ PDFファイルを開いている間にファイルがロックされない\foot
     \begin{lstlisting}
   $ sudo apt install gcc
     \end{lstlisting}
-\end{enumerate}
-
-\newpage
-
-\subsubsection{emathのインストール}
-\begin{enumerate}
-    \item 表\ref{tab:download}のURLにアクセスする
-    \item こちら→入口→丸ごとパック と進む
-    \item \verb|emathf051107c.zip|を選択する
 \end{enumerate}

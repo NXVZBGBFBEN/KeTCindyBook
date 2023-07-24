@@ -1,3 +1,4 @@
+%! suppress = MissingLabel
 %   ファイルおよびフォルダ名(ディレクトリ名)の表記には\verbコマンドを用いる．
 %   引数を持たないコマンドは基本的に波括弧で囲う．(e.g. {\hoge})
 %   一行あたりの最大文字数は135文字を目安に折り返す．
@@ -52,18 +53,6 @@
 {\ketcindy}のインストール手順を説明する．
 
 %%%%%%%%%%%%%%%%%%%% §2.2.1 %%%%%%%%%%%%%%%%%%%%
-\subsection{emathとの連携}
-emathとの連携を利用する場合は，下記の手順に従ってインストールする必要がある．
-\begin{enumerate}
-    \item 事前にダウンロードした\verb|emathf051107c.zip|を解凍する
-    \item 中にある\verb|sty.zip|を解凍する
-    \item \verb|sty|フォルダを{\ketcindy}のフォルダ内にある\verb|doc\foremathJ|に入れる
-    \item \verb|copymath.cdy|を開く
-    \item 使用する{\TeX}ディストリビューションを選択する
-    \item CopyEmathをクリックする
-\end{enumerate}
-
-%%%%%%%%%%%%%%%%%%%% §2.2.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{Windows・Linuxの場合}
 \begin{enumerate}
     \item {\ketcindy}フォルダを開く
@@ -77,9 +66,7 @@ emathとの連携を利用する場合は，下記の手順に従ってインス
     \item Workを押す
 \end{enumerate}
 
-\newpage
-
-%%%%%%%%%%%%%%%%%%%% §2.2.3 %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% §2.2.2 %%%%%%%%%%%%%%%%%%%%
 \subsection{Macintoshの場合}
 \begin{enumerate}
     \item {\ketcindy}フォルダを開く
@@ -93,3 +80,38 @@ emathとの連携を利用する場合は，下記の手順に従ってインス
     \item Updateを押す
     \item Workを押す
 \end{enumerate}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%% §2.3 %%%%%%%%%%%%%%%%%%%%%
+\section{オプション・emathとの連携}
+数式で用いる記号の形が，日本で一般的に用いられるものと微妙に異なっている場合がある．
+日本の数学教科書の書式を利用したい場合は，emathを用いるとよい．
+
+形状が違う記号の例を表\ref{tab:math-symbol}に示す．
+\begin{table}[h]
+    \renewcommand{\arraystretch}{1.5}
+    \centering
+    \caption{数学記号の形状比較}
+    \label{tab:math-symbol}
+    \begin{tabular}{c||lc|lc}
+                 & \multicolumn{2}{c|}{標準}                      & \multicolumn{2}{c}{emath}                          \\
+        \hline
+        等号否定 & \verb|\ne|              & $\neq$               & \verb|\neqq|              & $\neqq$                \\
+        分数     & \verb|\dfrac{1}{2}|     & $\dfrac{1}{2}$       & \verb|\bunsuu{1}{2}|      & $\bunsuu{1}{2}$        \\
+        ベクトル & \verb|\vec{a}, \vec{b}| & $\vec{a}$, $\vec{b}$ & \verb|\beku{a}, \beku{b}| & $\beku{a}$, $\beku{b}$
+    \end{tabular}
+\end{table}
+
+emathのインストール手順を下に示す．
+\begin{enumerate}
+    \item \url{http://emath.s40.xrea.com/}にアクセスする
+    \item こちら→入口→丸ごとパック と進み，\verb|emathf051107c.zip|を選択する
+    \item ダウンロードした\verb|emathf051107c.zip|を解凍する
+    \item 中にある\verb|sty.zip|を解凍する
+    \item \verb|sty|フォルダを{\ketcindy}のフォルダ内にある\verb|doc\foremathJ|に入れる
+    \item \verb|copymath.cdy|を開く
+    \item 使用する{\TeX}ディストリビューションを選択する
+    \item CopyEmathをクリックする
+\end{enumerate}
+
