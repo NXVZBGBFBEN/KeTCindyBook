@@ -1344,6 +1344,15 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT extractbb -B cropbox -O ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
+INPUT ./out/fig/texlive-mac-1.png
 INPUT ./out/fig/kettex-1.png
 INPUT ./out/fig/kettex-1.png
 INPUT extractbb -B cropbox -O ./out/fig/kettex-1.png
@@ -1370,6 +1379,15 @@ INPUT ./out/fig/maxima-win-1.png
 INPUT ./out/fig/maxima-win-1.png
 INPUT ./out/fig/maxima-win-1.png
 INPUT ./out/fig/maxima-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT extractbb -B cropbox -O ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
+INPUT ./out/fig/c-win-1.png
 INPUT ./InstallAndSettings.tex
 INPUT ./InstallAndSettings.tex
 INPUT ./InstallAndSettings.tex

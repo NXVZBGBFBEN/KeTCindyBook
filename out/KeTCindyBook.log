@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 02:09
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  24 JUL 2023 13:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1006,46 +1006,54 @@ File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
 File: ./out/fig/texlive-win-1.png Graphic file (type bmp)
 <./out/fig/texlive-win-1.png>
 LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 3
-2.
+0.
 
 (c:/texlive/2022/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
 File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 32.
+(Font)              scaled to size 10.0pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 32.
+(Font)              scaled to size 6.72699pt on input line 30.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 32.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+(Font)              scaled to size 4.805pt on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 
 
 (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 36.
+(Font)              scaled to size 6.72699pt on input line 34.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 36.
+(Font)              scaled to size 5.76599pt on input line 34.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 5.76599pt on input line 36.
+(Font)              scaled to size 5.76599pt on input line 34.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 45.
+(Font)              scaled to size 9.60999pt on input line 43.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 45.
+(Font)              scaled to size 9.60999pt on input line 43.
  [1
 
 ]
+File: ./out/fig/texlive-mac-1.png Graphic file (type bmp)
+<./out/fig/texlive-mac-1.png>
+File: ./out/fig/texlive-mac-1.png Graphic file (type bmp)
+<./out/fig/texlive-mac-1.png>
+File: ./out/fig/texlive-mac-1.png Graphic file (type bmp)
+<./out/fig/texlive-mac-1.png>
+File: ./out/fig/texlive-mac-1.png Graphic file (type bmp)
+<./out/fig/texlive-mac-1.png>
 File: ./out/fig/kettex-1.png Graphic file (type bmp)
 <./out/fig/kettex-1.png>
 File: ./out/fig/kettex-1.png Graphic file (type bmp)
@@ -1077,6 +1085,14 @@ File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
 <./out/fig/maxima-win-1.png>
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
 <./out/fig/maxima-win-1.png>
+File: ./out/fig/c-win-1.png Graphic file (type bmp)
+<./out/fig/c-win-1.png>
+File: ./out/fig/c-win-1.png Graphic file (type bmp)
+<./out/fig/c-win-1.png>
+File: ./out/fig/c-win-1.png Graphic file (type bmp)
+<./out/fig/c-win-1.png>
+File: ./out/fig/c-win-1.png Graphic file (type bmp)
+<./out/fig/c-win-1.png>
  [5]
 [6]) (./InstallAndSettings.tex [7]
 第2章
@@ -1113,12 +1129,12 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 (rerunfilecheck)             Checksum: C76480CC81517195D680A8C97A3BBBFA;514.
  ) 
 Here is how much of TeX's memory you used:
- 29104 strings out of 476707
- 529846 string characters out of 5808796
- 1931203 words of memory out of 5000000
- 49020 multiletter control sequences out of 15000+600000
+ 29134 strings out of 476707
+ 530692 string characters out of 5808796
+ 1855203 words of memory out of 5000000
+ 49048 multiletter control sequences out of 15000+600000
  560246 words of font info for 115 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,10n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (12 pages, 116504 bytes).
+Output written on out/KeTCindyBook.dvi (12 pages, 48792 bytes).
