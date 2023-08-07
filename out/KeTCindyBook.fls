@@ -1370,6 +1370,15 @@ INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/inconsolata/ts1-zi4r.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT extractbb -B cropbox -O ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
+INPUT ./out/fig/cinderella-1.png
 INPUT ./out/fig/maxima-win-1.png
 INPUT ./out/fig/maxima-win-1.png
 INPUT extractbb -B cropbox -O ./out/fig/maxima-win-1.png

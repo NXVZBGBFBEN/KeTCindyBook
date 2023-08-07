@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  7 AUG 2023 14:32
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  7 AUG 2023 14:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1076,6 +1076,14 @@ LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 (Font)              scaled to size 8.64899pt on input line 120.
  [3]
+File: ./out/fig/cinderella-1.png Graphic file (type bmp)
+<./out/fig/cinderella-1.png>
+File: ./out/fig/cinderella-1.png Graphic file (type bmp)
+<./out/fig/cinderella-1.png>
+File: ./out/fig/cinderella-1.png Graphic file (type bmp)
+<./out/fig/cinderella-1.png>
+File: ./out/fig/cinderella-1.png Graphic file (type bmp)
+<./out/fig/cinderella-1.png>
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
 <./out/fig/maxima-win-1.png>
 File: ./out/fig/maxima-win-1.png Graphic file (type bmp)
@@ -1128,12 +1136,12 @@ Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
 (rerunfilecheck)             Checksum: 88F2BA3199A586A92AEF6BDCBDF5DF2A;595.
  ) 
 Here is how much of TeX's memory you used:
- 29135 strings out of 476707
- 530709 string characters out of 5808796
+ 29150 strings out of 476707
+ 531162 string characters out of 5808796
  1858203 words of memory out of 5000000
- 49049 multiletter control sequences out of 15000+600000
+ 49063 multiletter control sequences out of 15000+600000
  560246 words of font info for 115 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,18n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (11 pages, 48672 bytes).
+Output written on out/KeTCindyBook.dvi (11 pages, 48776 bytes).
