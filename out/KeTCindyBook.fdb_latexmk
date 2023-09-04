@@ -1,15 +1,15 @@
 # Fdb version 4
-["dvipdf"] 1691387073 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1691387074 0
-  "out/KeTCindyBook.dvi" 1691387072 48776 77066c7e12c1b279bb5d3cf4c9dde9a3 "latex"
+["dvipdf"] 1693839131 "out/KeTCindyBook.dvi" "out/KeTCindyBook.pdf" "out/KeTCindyBook" 1693839133 0
+  "out/KeTCindyBook.dvi" 1693839130 49512 386cf7c7e258c45a820d73de3863a95e "latex"
   (generated)
   "out/KeTCindyBook.pdf"
   (rewritten before read)
-["latex"] 1691387065 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1691387074 0
-  "BasicUsage.tex" 1688359282 367 ac6864926ab9a256c51576fc2e5ca362 ""
+["latex"] 1693839123 "KeTCindyBook.tex" "out/KeTCindyBook.dvi" "KeTCindyBook" 1693839133 0
+  "BasicUsage.tex" 1691394862 812 bc89b34d87feeac9c4fd5602c9a19f74 ""
   "CoverPage.tex" 1679762578 389 93d5043574a1747647885ef8c4274b06 ""
   "InstallAndSettings.tex" 1690187120 5306 b234b74cdd8127f002528d4605cab665 ""
-  "KeTCindyBook.tex" 1690173464 1769 14ed9d4d98ed95b8c60ba912c9d83c3a ""
-  "Prepare.tex" 1691387064 13528 20ff35ff6c7ac98e1cbf0eddc4261886 ""
+  "KeTCindyBook.tex" 1693839110 1816 9a3e3b2395588d4b8f95db365b8abebd ""
+  "Prepare.tex" 1693838352 13514 6f50f454f40e786ef953408d4dffd63d ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1664302671 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/bookman/pbkd7t.tfm" 1653839221 1828 e7f8907b15e46b672fb146aef572259e ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1664307540 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -130,6 +130,7 @@
   "c:/texlive/2022/texmf-dist/tex/latex/environ/environ.sty" 1653840041 4378 f429f0da968c278653359293040a8f52 ""
   "c:/texlive/2022/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1653840080 11772 8d0db0794e6aeb45348f60bbe3a3e093 ""
   "c:/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1653840102 46845 3b58f70c6e861a13d927bff09d35ecbc ""
+  "c:/texlive/2022/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty" 1677607450 43712 b5e8951fc13f42e748a253743534321f ""
   "c:/texlive/2022/texmf-dist/tex/latex/float/float.sty" 1653840262 6749 16d2656a1984957e674b149555f1ea1d ""
   "c:/texlive/2022/texmf-dist/tex/latex/framed/framed.sty" 1653840339 22449 7ec15c16d0d66790f28e90343c5434a3 ""
   "c:/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1653840489 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -209,8 +210,8 @@
   "c:/texlive/texmf-local/tex/platex/emath/emathK.sty" 1131276948 4990 6a5614fc78f8de11eb3f29d70675d83e ""
   "c:/texlive/texmf-local/tex/platex/emath/emathMw.sty" 1131276948 24898 83d70bee2acafb2e78ae28668490ef9d ""
   "c:/texlive/texmf-local/tex/platex/emath/jquote.sty" 1131276948 1898 4d0cded33ef7e87e3d0c400f64f05835 ""
-  "out/KeTCindyBook.aux" 1691387072 5841 c98591eeac3efeb4c879017093a7ed87 "latex"
-  "out/KeTCindyBook.out" 1691387072 595 88f2ba3199a586a92aef6bdcbdf5df2a "latex"
+  "out/KeTCindyBook.aux" 1693839130 5829 ead45c341e4e4bf85a01a9eb330ca621 "latex"
+  "out/KeTCindyBook.out" 1693839130 583 df7e328bae25370dd94e296cf5d7dca8 "latex"
   "out/fig/c-win-1.png" 1690174716 66955 f67eafcb3f573a7b69cdf9fe49e42906 ""
   "out/fig/cinderella-1.png" 1691386884 80902 4eeae2a2f472376e6fb0f0533ea54485 ""
   "out/fig/kettex-1.png" 1688368510 36122 04b0b71220659c8a4419a393b3438588 ""
