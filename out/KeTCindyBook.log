@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  4 SEP 2023 23:52
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.sjis) (TeX Live 2022) (preloaded format=platex 2023.3.1)  2 OCT 2023 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1140,6 +1140,22 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 7.68799pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 8.0pt on input line 10.
+File: ./out/fig/s0101figure-1.png Graphic file (type bmp)
+<./out/fig/s0101figure-1.png>
+File: ./out/fig/s0101figure-1.png Graphic file (type bmp)
+<./out/fig/s0101figure-1.png>
+File: ./out/fig/s0101figure-1.png Graphic file (type bmp)
+<./out/fig/s0101figure-1.png>
+File: ./out/fig/s0101figure-1.png Graphic file (type bmp)
+<./out/fig/s0101figure-1.png>
+File: ./out/fig/s0101figure-2.png Graphic file (type bmp)
+<./out/fig/s0101figure-2.png>
+File: ./out/fig/s0101figure-2.png Graphic file (type bmp)
+<./out/fig/s0101figure-2.png>
+File: ./out/fig/s0101figure-2.png Graphic file (type bmp)
+<./out/fig/s0101figure-2.png>
+File: ./out/fig/s0101figure-2.png Graphic file (type bmp)
+<./out/fig/s0101figure-2.png>
 ) [10
 
 ] (out/KeTCindyBook.aux)
@@ -1148,15 +1164,15 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 5.12pt have occurred.
 
 Package rerunfilecheck Info: File `KeTCindyBook.out' has not changed.
-(rerunfilecheck)             Checksum: DF7E328BAE25370DD94E296CF5D7DCA8;583.
+(rerunfilecheck)             Checksum: 96D013C9DC56B1E50AC66E597DFD2E2D;641.
  ) 
 Here is how much of TeX's memory you used:
- 29537 strings out of 476707
- 537459 string characters out of 5808796
+ 29568 strings out of 476707
+ 538406 string characters out of 5808796
  1858203 words of memory out of 5000000
- 49446 multiletter control sequences out of 15000+600000
+ 49475 multiletter control sequences out of 15000+600000
  560731 words of font info for 118 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  83i,18n,89p,446b,1430s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/KeTCindyBook.dvi (11 pages, 49512 bytes).
+Output written on out/KeTCindyBook.dvi (11 pages, 51160 bytes).

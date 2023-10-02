@@ -8,5 +8,23 @@
 ここでは，{\ketcindy}に同梱されているサンプルを用いて，使い方の例をいくつか紹介する．
 
 サンプルの場所はホームディレクトリ\footnote{Windowsの場合\verb|C:\Users\<User>|，Mac/Linuxの場合\verb|/home/ユーザ名|}内の
-\verb|ketcindyYYYYMmmDD|\footnote{例: \verb|ketcindy2022Dec25|}である．
+\verb|ketcindyYYYYMmmDD/samples|\footnote{例: \verb|ketcindy2022Dec25/samples|}である．
 （以降，このフォルダを「サンプルディレクトリ」と呼ぶことにする．）
+
+%%%%%%%%%%%%%%%%%%%%% §3.1 %%%%%%%%%%%%%%%%%%%%%
+\section{基本描画}
+まずは，{\ketcindy}がどのようなものなのかを体験してもらうため，基本的な2D図形の描画について紹介する．
+
+サンプルディレクトリ内の\verb|s01figure/|に移動してほしい．
+
+%%%%%%%%%%%%%%%%%%%% §3.1.1 %%%%%%%%%%%%%%%%%%%%
+\subsection{三角形の外接円}
+\verb|s0101figure.cdy|には，三角形の外接円が収録されている．
+
+Cinderellaでこのファイルを開き，上部にあるFigureボタンを押すと，作成した図形がへ\verb|.tex|形式で出力される．
+出力される場所は\verb|fig/|である．
+
+\begin{layer}{180}{0}
+    \putnotese{0}{5}{\includegraphics[width=77.5mm]{./out/fig/s0101figure-1}}
+    \putnotesw{160}{5}{\includegraphics[width=77.5mm]{./out/fig/s0101figure-2}}
+\end{layer}
