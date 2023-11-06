@@ -1,0 +1,84 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>KeT-LMS</title>  
+<script src="ketcindyjs/jquery.min.js"></script>  
+<link rel="stylesheet" href="ketcindyjs/katex/katex11.min.css" />  
+<script src="ketcindyjs/katex/katex11.min.js"></script>  
+<script src="ketcindyjs/auto-render11.min.js"></script>  
+<script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "[[", right: "]]", display: true},{left: "$", right: "$", display: false}]})});</script>  
+<style type="text/css">
+.size2  {width:400px; height:300px; }
+ol li  {
+  list-style: none;
+}
+ul li::before {
+  content: "・";
+}
+</style>
+</head>  
+<body>  
+<div style="padding: 50px">  
+<p><font size="10">&emsp;Quetion File of KeT-LMS</font>  
+<font size="6">&emsp;&emsp;&emsp;&emsp;2023-07-08</font></p> 
+<font size="5">
+<ol>
+<font size="6"><li>1. Name　question(Id-No).txt</li></font>
+  <ul>
+    <li>Id : Date, for example</li>
+    <li>No : Number of the 1st big question</li>
+    <li>You can add multiple big questions</br>
+    &emsp;&emsp;Put a blank line between big questions</br>
+    &emsp;&emsp;Question number will be increased automatically.
+      </li>
+    <li>[ex] question0615-1.txt,  question0615-3.txt</br>
+　&emsp;&emsp;(question0615-1 includes 2 big questions, 01 and 02)
+    </li>
+  </ul>
+<font size="6"><li>2. Formats</li></font>
+  <ul>
+    <li>Q&emsp;&emsp;<font color="red">Don't add the number.</font></li>
+    <li>(Question Statement)&emsp;&emsp;<font color="red">Add // for multiple lines</font></li>
+    <li>[1] (Small Question)&emsp;&emsp;<font color="red">Put [] for only one small question.</font></li>
+    <li>[2] &emsp;&emsp;<font color="red">Next small question,...</font></li>
+    <li>Sheet &emsp;&emsp;<font color="red">Answer Column</font></li>
+    <li>[1] &emsp;&emsp;<font color="red">:: Allocation. Add ::-1 if you don't use Maxima for the scoring.</font></li>
+    <li>[2]</li>
+    <li>Ans &emsp;&emsp;<font color="red">Correct answer</font></li>
+    <li>[1]</li>
+    <li>[2]</li>
+    <li><font color="red">Put a blank line for the next question.</font></li>
+  </ul>
+<font size="6"><li>3. An example</li></font>
+  <ul>
+    <li>Q</li>
+    <li>Answer the following questions.</li>
+    <li>[1] Write the definition of the derivative of sin(2x) and find it</li>
+    <li>[2] Integrate sin(2x) from 0 to fr(pi,2).</li>
+    <li>Sheet</li>
+    <li>[1] =&emsp; ::5::-1</li>
+    <li>[2] int(sin(2x),x,0,fr(pi,2))=&emsp; ::5</li>
+    <li>Ans</li>
+    <li>[1] lim(z,x,fr(sin(z)-sin(x),z-x))=2cos(2x)</li>
+    <li>[2] 1</li>
+  </ul>
+<font size="6"><li>4. Confirmation of correct answers by Maxima</li></font>
+  <li>&emsp;(I) Add the following lines.</li>
+  <ul>
+    <li>Mxcalc</li>
+    <li>[1] sin(2x)&emsp;<font color="red">Substitute the string in Maxima converted from KeTMath for i1</font></li>
+    <li>[2] fr(pi,2)&emsp;<font color="red">Substitute the string in Maxima converted from KeTMath for i2.</font></li>
+    <li>f(x):i1&emsp;&emsp;&emsp;<font color="red">Function definition, assume and declare are available.</font></li>
+    <li>o1:diff(f(x),x)&emsp;&emsp;<font color="red">Substitue the result for o1.</font></li>
+    <li>o2:integrate(f(x),x,0,i2)</li>
+    <li>return o1::o2&emsp;&emsp;<font color="red">retirm o1 and o2</font></li>
+  </ul>
+  <li>&emsp;(II) Launch 'toolketmath.cdy', Choose 'Call Maxima for answers' and run.</li>
+  <ul>
+    <li>You can obtain the result.</li>
+    <li>The result is a list of [2*cos(2*x),1]</li>
+  </ul>
+</ol>
+</body>  
+</html>  

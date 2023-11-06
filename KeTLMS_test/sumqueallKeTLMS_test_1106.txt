@@ -1,0 +1,15 @@
+Q01
+問いに答えよ
+[1] log(x)を微分せよ．
+[2] log(x)の1からeまでの定積分を求めよ．
+Sheet
+[1]= ::5
+[2]= ::5
+Ans
+[1] fr(1,x)
+[2] 1
+Mxcalc
+[1] log(x)
+o1:diff(i1,x)
+o2:integrate(i1,x,1,%e)
+return o1::o2

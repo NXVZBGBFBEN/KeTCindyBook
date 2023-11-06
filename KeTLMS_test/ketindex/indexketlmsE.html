@@ -1,0 +1,152 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>KeT-LMS</title>  
+<script src="ketcindyjs/jquery.min.js"></script>  
+<link rel="stylesheet" href="ketcindyjs/katex/katex11.min.css" />  
+<script src="ketcindyjs/katex/katex11.min.js"></script>  
+<script src="ketcindyjs/auto-render11.min.js"></script>  
+<script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "[[", right: "]]", display: true},{left: "$", right: "$", display: false}]})});</script>  
+<style type="text/css">
+.size2  {width:400px; height:300px; }
+ol li  {
+  list-style: none;
+}
+ul li::before {
+  content: "・";
+}
+</style>
+</head>  
+<body>  
+<div style="padding: 50px">  
+<p><font size="10">&emsp;How to use KeT-LMS</font>  
+<font size="6">&emsp;&emsp;&emsp;&emsp;2023-08-03</font></p> 
+<!--<div style="text-align: center">
+<img class="size2" src="ketmathscreen.png" alt="KeTMath画面">
+</div>-->
+<font size="5">
+<ol>
+<font size="6"><li>Preparation</font>
+  <ol>
+    <li>1. Update ketcindy to the latest version(4.4.37).</li>
+    <li>2. Download <a href="https://github.com/s-takato/ketmath">ket-lms</a>.
+      <ul>
+      <li>Click Releases/Latest (version).</li>
+      <li>Unzip the downloaded zip</li>
+      <li>Move to any place. Name can be changed, for example "math01".</li>
+      <li>Put  'student.txt' and 'question(quesno).txt' in folder 'data'.</li>
+     </ul>
+    </li>
+    <li>3. In case of multiple classes, for example, A and B:
+      <ul>
+      <li>Make dataA and dataB</li>
+      <li>question can be the same.</li>
+      <li>Switch them with ’data button in 'toolketmath.cdy".</li>
+     </ul>
+    </li>
+  </ol>
+<font size="6"><li>[1] Generating question(qn) file.</font>
+  <ol>
+  <li>・See <a href="ketlmsques.pdf" download>File of the question of KeT-LMS</a>.</li>
+  </ol>
+<font size="6"><li>[2] Checking teacher's answers with Maxima</font>
+  <ol>
+  <li>1. Launch 'toolkemath.cdy'.</li>
+  <li>2. Select menu 'Mxans'.
+    <ol>
+    <li>&emsp;・Two clicking forces the rebuild.</li>
+    <li>&emsp;・Clicking a file,  only the file will be generated.</li>
+    <li>(1) Result will be displayed and mxans(+qn).txt will be used.</li>
+    <li>(2) Confirm it and push 'Reset'.
+   </ol>
+  </ol>
+<font size="6"><li>[3] Generating kettask.html</font>
+  <ol>
+  <li>1. Push 'taskline'.</li>
+    <ol>
+    <li>&emsp;・This generates 　'1taskline(qn).txt' and '2anssheet(qh).txt'.</li>
+    </ol>
+  <li>2. Push 'kettask'. </li>
+    <ol>
+    <li>(1) Select either 'orgv' or 'orgvnr(without ketmath rules).</li>
+    <li>(2) Running this will generate 'kettask(qn).html'.</li>
+    <li>(3) Distribute the url to students.</li>
+    </ol>
+  <li>Remark） It will be convinient later if you run  'Summary'.</br>
+    &emsp;&emsp;&emsp;sumqueall(qn).txt（Alll questions and answers ）</br>
+    &emsp;&emsp;&emsp;sumqueque(qn).txt（Only questions）</br>
+    &emsp;&emsp;&emsp;sumtable(qn).csv（Not useless here） 
+  </ol> 
+  
+<font size="6"><li>[4]  Embedding of a ping to kettask.html</font>
+  <ol>
+  <li>1. Put (qn).png into 'drawdata'.</li>
+  <li>2, Launch tooldraw(d).cdy/</br>
+    &emsp;&emsp;&emsp;Error(1) Export tooldraw(d) to HTML.</br>
+    &emsp;&emsp;&emsp;Error(2) Make kettaskv(qn).html.
+  </li>
+  <li>3. List (qn).png to in the media browser.</li>
+  <li>4. Make sure the name of the top left button is named 'Imag'</br>
+   &emsp;&emsp;&emsp;Remark) Clicking the button changes the name to 'Draw'.</li>
+  <li>5. Push button 'Step' three times.</br>
+    <ol>
+    <li>&emsp;(1) generate (qn)png.txt from (qn).png.</li>
+    <li>&emsp;(2) Display the figure.</br>
+    &emsp;&emsp;&emsp;* Determine the center and the scale moving T3 and S.</br>
+    &emsp;&emsp;&emsp;* Generate (qn)script.txt clicking 'Go'.</li>
+    <li>&emsp;(3) Embed the figure into (qn)kettaskv.html</li>
+    <li>&emsp;Remark) Change the png file pressing <<, <, >, >>.</li>
+    </ol>
+  </ol>
+<font size="6"><li>[5] Embedding ketcindyjs scripts to kettask.html</font>
+  <ol>
+  <li>1. Launch tooldraw(d).cdy and press 'Export to html'</li>
+  <li>2. Put the script file '(qn)draw.txt in the folder 'drwdata'.</li>
+      &emsp;&emsp;&emsp;* Mvpt, Rmpt, Mvdraw, Mviist, Mvplotdata, Mvdrwxy are available</br>
+      &emsp;&emsp;&emsp;* Put //create(A,B,...) at the top ine,when using geometric points</br>
+      &emsp;&emsp;&emsp;* Lines starting with // ending with // will be added when embedding.</br>
+      &emsp;&emsp;&emsp;* Contents of if(ketlibflg==1 block will be added to ketlib slot.
+   <li>3. Click 'Imag" in tooldraw(d).cdy to change it 'Draw'.</li>
+  <li>4. Determine the center and the scale of the figure moving O, S.</li>
+  <li>5. Pressing 'Save OS', positions of O, S will be saved to 'kettaskv(qn)os.txt'.</li>
+  <li>6. Push 'Go' to embed the file to kettask(qn).html.</li>
+  </ol>
+  
+<font size="6"><li>[6] Scoring with ketscore.html</font>
+  <ol>
+  <li>1. Copy the collected responses to ’data/anssheetall.txt'</li>
+  <li>2. Select 'anssheetall' to execute.</br>
+  &emsp;&emsp;&emsp;Each answers will be copied to anssheet(qn).txt</li>
+  <li>3. Select 'scoreline' to execute.</br>
+　　　　　'4scoreline(qn).txt' will be generated.</li>
+  <li>4. Select 'ketscore' to execute.</br>
+　　　　　'ketscorev(qn).html' will be generated.</li>
+ <li>5. Select 'Maxima' to execute. (optional)</br>
+　　　(1) Case of some errors:</br>
+&emsp;&emsp;&emsp;・Errors will be added to errormaxima(d).txt.</br>
+&emsp;&emsp;&emsp;・Modify '3scoreline(qn).txt'.</br>
+&emsp;&emsp;&emsp;・Force 'Maxima' to run with only that file.</br>
+&emsp;&emsp;&emsp;・Repeat until there are no more errors.</br>
+　　　(2) '4_scoresheet(qn).txt' will be generated.</li>
+  <li>6. Launch 'ketscore(qn).html'</br>
+  &emsp;&emsp;&emsp;  Copy the contents of '4_scoresheetI(qn).txt' to the bottom input box.</br>
+  </li>
+  <li>7. Check and correct the score moving st and pg./br>
+  &emsp;&emsp;&emsp;・Comments can be added after the score and  '::"</li>
+  <li>8. Push 'Rec' and copy the line in the bottom box on the second line of '4_scoresheet.txt'.</br>
+  &emsp;&emsp;&emsp;・Case of no scoring with Maxima, add it to '4scoresheetall.txt'  
+  </li>
+  <li>9. Push 'scoresheet', then each '4scoreline(qn)".txt will be generated.</li>
+  </ol>
+<font size="6"><li>[7] Returning results and summaries</font>
+  <ol>
+  <li>1. Button 8 and 9 will generate the result of each student.</li>
+  <li>2. Copy that result to Dropbox per-student folder with button 10.</li>
+  <li>3. button 11 will generate summaries.</li>
+  </ol>
+  
+</ol>
+</font>
+</body>  
+</html>  

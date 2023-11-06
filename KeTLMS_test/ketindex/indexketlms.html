@@ -1,0 +1,162 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta charset="utf-8">  
+<title>KeT-LMS</title>  
+<script src="ketcindyjs/jquery.min.js"></script>  
+<link rel="stylesheet" href="ketcindyjs/katex/katex11.min.css" />  
+<script src="ketcindyjs/katex/katex11.min.js"></script>  
+<script src="ketcindyjs/auto-render11.min.js"></script>  
+<script>$(document).ready(function(){renderMathInElement(document.body,{delimiters: [{left: "[[", right: "]]", display: true},{left: "$", right: "$", display: false}]})});</script>  
+<style type="text/css">
+.size2  {width:400px; height:300px; }
+ol li  {
+  list-style: none;
+}
+ul li::before {
+  content: "・";
+}
+</style>
+</head>  
+<body>  
+<div style="padding: 50px">  
+<p><font size="10">&emsp;KeT-LMSの使い方</font>  
+<font size="6">&emsp;&emsp;&emsp;&emsp;2023-09-29</font></p> 
+<!--<div style="text-align: center">
+<img class="size2" src="ketmathscreen.png" alt="KeTMath画面">
+</div>-->
+<font size="5">
+<ol>
+<font size="6"><li>準備</font>
+  <ol>
+    <li>1. ketcindyを最新版(4.4.4x)に更新する</li>
+    <li>2. <a href="https://github.com/s-takato/ketmath">ket-lms</a>をダウンロード
+      <ul>
+      <li>右下にあるReleases/Latestバージョンをクリック</li>
+      <li>ダウンロードしたzipを解凍</li>
+      <li>適当なフォルダに移動．名称は任意(例えば math2023)</li>
+      <li>dataにstudent(y).txtとquestion(q-n).txtを入れる</br>
+      &emsp;&emsp;yは年度など，q-nは問題記号-番号</li>
+     </ul>
+    </li>
+    <li>3. 複数のクラス(例えばA,B)があるとき
+      <ul>
+      <li>dataA,dataBを作る</li>
+      <li>questionは同名でもよい</li>
+      <li>toolketmathではdataのボタンクリックで切り替える</li>
+     </ul>
+    </li>
+  </ol>
+<font size="6"><li>[1] question(q-n)ファイルの作成</font>
+  <ol>
+  <li>&emsp;&emsp;<a href="indexketlmsques.html">KeT-LMSの課題ファイル</a>を参照</li>
+  </ol>
+<font size="6"><li>[2] Maximaによる正解のチェック</font>
+  <ol>
+  <li>1. toolkemath.cdyを立ち上げる</li>
+  <li>2.「Mxansを作成」を選ぶ
+    <ol>
+    <li>&emsp;・2回押せば，強制実行</li>
+    <li>&emsp;・ファイルを選べば（赤字になる）それだけが実行（以下同じ）</li>
+    <li>(1) 結果が表示され，dataの中にmxans(q-n).txtができる</li>
+    <li>(3) 確認してからリセットを押す</li>
+   </ol>
+  </ol>
+<font size="6"><li>[3] kettaskの作成</font>
+  <ol>
+  <li>1.「1.tasklineを作成」を押す</li>
+    <ol>
+    <li>&emsp;・1taskline(q-n)と2anssheet(q-n)ができる</li>
+    </ol>
+  <li>2.「2.kettaskに組込」を押す </li>
+    <ol>
+    <li>(1) orgvかorgvnr(ketmathルール表なし)を選ぶ</li>
+    <li>(2) 実行するとkettask(q-n).htmlができる</li>
+    <li>(3) urlを学生に配付</li>
+    </ol>
+  <li>注)「総括ファイル作成」を実行しておくと問題の確認に便利</br>
+    &emsp;&emsp;&emsp;sumqueall(q-n).txt（問題データすべて）</br>
+    &emsp;&emsp;&emsp;sumqueque(q-n).txt（問のみ）</br>
+    &emsp;&emsp;&emsp;sumtable(q-n).csv（一覧表．ここでは無意味） 
+  </ol> 
+  
+<font size="6"><li>[4]  kettaskへのpngの組込み</font>
+  <ol>
+  <li>1. embeddataに(q-n).pngを入れる</li>
+  <li>2, toolembed.cdyを立ち上げる</br>
+    &emsp;&emsp;&emsp;エラー(1) HTMLに書き出す を実行</br>
+    &emsp;&emsp;&emsp;エラー(2) kettaskv(q-n).を作っていない</br>
+    &emsp;&emsp;&emsp;エラーを修正したらResetを押す </li>
+  <li>3. メディアブラウザに(q-n).pngを登録する</li>
+  <li>4. 上の左ボタンが Imagであることを確かめる</br>
+   &emsp;&emsp;&emsp;注）クリックするとDrawに変わる</li>
+  <li>5. ステップを3回押す</br>
+    <ol>
+    <li>&emsp;(1) (q-n).pngファイルから (q-n)png.txtを作成</li>
+    <li>&emsp;(2) 図を表示</br>
+    &emsp;&emsp;&emsp;・T3,Sを動かして中心位置とスケールを決める</br>
+    &emsp;&emsp;&emsp;・Goを押すと，(q-n)script.txtを作成</li>
+    <li>&emsp;(3) embed>htmlにしてGoを押すと同名のkettaskvに組込み(imが付く)</li>
+    <li>&emsp;(注）<<, <, >, >> を押すと図ファイルを変更できる</li>
+    </ol>
+  </ol>
+<font size="6"><li>[5] kettaskへのketcindyjsスクリプトの組込み</font>
+  <ol>
+  <li>1. スクリプトを記述した(q-n)draw.txtをembeddataに入れる
+    <ul>
+      <li>Mvpt, Rmpt, Mvdraw, Mviist, Mvplotdata, Mvdrwxyが使える</br>
+        &emsp;&emsp;Mvpt(1,5)　標準座標[1,5]の点の画面座標</br>
+        &emsp;&emsp;Mvlist("1",[p1,p2])　Mv(p1),Mv(pt)の線分(名前はmsg1）</br>
+        </li>
+      <li>幾何点を使うときは1行目に //create(A,B,...)</li>
+     <li> //で始まり最後に // add embed がついた行は，埋め込時に追加される</li>     
+        &emsp;&emsp;//if(nqu>0, ...,//add embed　#nqu はページ番号</br>
+     <li>if(ketlibflg==1,...,ketlibflg=0;)は最初に一度だけ実行される</li>
+  </ul>
+ </li>
+  <li>2. toolembedcdyの画面でImagをクリックしてDrawに変える</li>
+  <li>3. O, Sを動かして図の位置とスケールを決める</li>
+  <li>4. OS保存とGoを押すと，O, Sの位置がkettaskv(q-n)os.txtに保存される</li>
+  <li>5. EmbedとGoを押してkettaskv(drが付く)に組込む</li>
+  </ol>
+  
+<font size="6"><li>[6] ketscoreによる採点</font>
+  <ol>
+  <li>1. 回収した答案データをdata/anssheetallにコピーする</li>
+  <li>2. anssheet分割 を選び，実行する</br>
+  &emsp;&emsp;&emsp;問題ごとの2anssheet.txtにコピーされる</li>
+  <li>3. scoreline作成 を選び，実行する</br>
+　　　　　4scoreline(q-n).txtができる</li>
+  <li>4. ketscore組込 を選び，実行する</br>
+&emsp;&emsp;&emsp;・ketscorev(q-n).htmlができる</br>
+&emsp;&emsp;&emsp;・このファイルを開けば直接採点ができる</br>
+&emsp;&emsp;&emsp;・採点が終わったらRecを押す</br>
+&emsp;&emsp;&emsp;　　最下段のデータを4scoresheet(q-n).txtにコピーする</li>
+ <li>5. Maximaによる採点を選び，実行する</br>
+　　　(1) エラーがある場合</br>
+&emsp;&emsp;&emsp;・errormaxima(q).txtに追加される</br>
+&emsp;&emsp;&emsp;・3scoreline(q-n)を修正する</br>
+&emsp;&emsp;&emsp;・そのファイルだけを選んで強制的に実行</br>
+&emsp;&emsp;&emsp;・エラーがなくなるまで繰り返し行う</br>
+　　　(2) 4_scoresheet(q-n)ができる</li>
+  <li>6. ketscore(q-n).htmlを立ち上げる</br>
+  &emsp;&emsp;&emsp;  4_scoresheetI(q-n)の中身を最下欄にコピー</br>
+  </li>
+  <li>7. st, pgを動かして，得点を確認修正する</br>
+  &emsp;&emsp;&emsp;・コメントは，点数のあとに :: をつけて書く</li>
+  <li>8. Rec を押し，最下欄の行を4_scoresheetの2行目にコピー</br>
+  &emsp;&emsp;&emsp;・Maxima採点しないときは，4scoresheetallにコピー  
+  </li>
+  <li>9. scoresheet分割 を押すと，問題別の4scoresheet(q-n).txtができる</li>
+  </ol>
+<font size="6"><li>[7] 返却と集計</font>
+  <ol>
+  <li>1. 8と9のボタンで学生ごとの成績票を作成する</li>
+  <li>2. 11を押すと，Dropboxの学生ごとのフォルダにコピーされる</li>
+  <li>3. 10の総括ファイル を押すと，成績一覧表ができる．</li>
+  </ol>
+  
+</ol>
+</font>
+</body>  
+</html>  
